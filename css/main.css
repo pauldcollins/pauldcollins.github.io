@@ -1,0 +1,416 @@
+/* NOTE
+	All CSS is valid here except for the use of cursor:hand; 
+	Although this is not recognised as valid, it is required
+	by Internet Explorer 5.5 and below, please don't remove.
+	
+========================================================================*/
+
+
+/* BODY STYLES */
+body {margin:0; padding:0; color:#4A4A49; text-align:center; font:62.5%/1.5 "Lucida Sans",Geneva,Verdana,Arial,Helvetica,sans-serif; background:#DBE274 url(../images/bgStripTop.jpg) repeat-x;}
+img, form {border:0; margin:0; vertical-align:top;}
+p, .margin {padding:0; margin:0 0 15px 0;}
+.noBottomMargin {margin-bottom:0;}
+.noTopMargin {margin-top:0;}
+.topMargin {margin-top:15px;}
+.noMargin {margin:0;}
+.negativeTopMargin {margin-top:-10px;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+fieldset {border:0; margin:0; padding:0;}
+select, textarea {font:1.1em "Lucida Sans",Geneva,Verdana,Arial,Helvetica,sans-serif; border:solid 1px #000; color:#000;}
+input[type=text], input[type=checkbox], input[type=password] {font-size:1.1em; border:solid 1px #000; color:#000; height:19px;}
+* html input {font-size:1.1em; border:solid 1px #000; color:#000;}
+* html input.inputCheckBox {border:none;}
+
+/* LISTS */
+dl, dd {margin:0; padding:0;}
+ul {margin:0 0 0 15px; padding:0;} 
+ol {margin:0 0 15px 22px; padding-left:0;}
+ol li {margin:0;}
+
+/* LINKS */
+a {color:#C04E00; text-decoration:underline; cursor:pointer;}
+a:hover {text-decoration:none;}
+a.arrowLink {text-decoration:none; clear:both; display:block; float:left; padding:0 0 0 18px; background:url(../images/iconArrowLinkLight.gif) 0 0.5em no-repeat;}
+#blogBox a.arrowLink {float:none; background:url(../images/iconArrowLinkDark.gif) 0 0.5em no-repeat;}
+a:hover.arrowLink {text-decoration:underline;}
+
+strong {color:#000;}
+
+/* FLOATS AND CLEARING */
+.clear {clear:both; height:0;}
+* html .clear {display:inline; height:auto;}
+.left,
+.alignleft {float:left;}
+.right,
+.alignright {float:right;}
+
+/* CLEARFIX */
+div:after {content: "."; display:block; height:0; clear:both; visibility:hidden;}
+
+/* HIDDEN TEXT */
+.hidden {position:absolute; left:0px; top:-10000px; width:0px; height:0px; overflow:hidden;}
+
+
+/* ========= IMAGE REPLACEMENT ========= */
+
+/* STANDARD IMAGE REPLACEMENT */
+.replace {position:relative; overflow:hidden;}
+.replace em, .replace a {display:block; position:absolute; top:0; left:0; z-index:1; width:100%; height:100%; background-repeat:no-repeat;}
+* html>body .replace {overflow:visible; font-size:5px;}
+
+/* sIFR IMAGE REPLACEMENT (main styles) */
+.sIFR-flash {visibility:visible !important; margin:0; padding:0;}
+.sIFR-replaced, .sIFR-ignore {visibility:visible !important;}
+.sIFR-alternate {position:absolute; left:0; top:0; width:0; height:0; display:block; overflow:hidden;}
+ 
+/* sIFR text styles */
+.sIFR-active #topNavigation .secondLevel li {visibility:hidden; font-family:Verdana; line-height:1em; font-size:1.8em;}
+.sIFR-active h1 {visibility:hidden; font-family:Verdana; line-height:1em;}
+.sIFR-active .textArea h1 {visibility:hidden; font-family:Verdana; line-height:1em;}
+.sIFR-active #rightPanel h2 {visibility:hidden; font-family:Verdana; line-height:1em; margin-bottom:-5px;}
+.sIFR-active #articlesBox h3 {visibility:hidden; font-family:Verdana; line-height:1em; padding:21px 0 4px 21px; margin:0; min-height:28px;}
+.sIFR-active #linksBox h3 {visibility:hidden; font-family:Verdana; line-height:1em; padding:18px 0 5px 21px; margin:0; min-height:28px;}
+.sIFR-active #rightPanel dt {visibility:hidden; font-family:Verdana; line-height:1em;}
+
+
+/* ========= CONTAINERS ========= */
+
+#wrapper {width:770px; margin:0 auto; padding-bottom:30px; text-align:left; font-size:1em; position:relative;}
+#leftPanel {width:455px; float:left;}
+#blog #leftPanel {width:524px; float:left;}
+#rightPanel {width:280px; font-size:1.2em; line-height:1.6em; float:left; margin-left:35px;}
+* html #rightPanel {margin-left:34px;}
+#blog #rightPanel {width:211px; margin-left:35px;}
+* html #blog #rightPanel {margin-left:24px;}
+#content {font-size:1.4em; line-height:1.6em; clear:both; overflow:hidden; float:left; width:100%;}
+#home #content {float:left; width:455px;}
+#blog #content {float:left; width:535px;}
+#speechBubble {font-size:1.2em;}
+
+
+/*========================================================================
+	NAVIGATION, SPEECH BUBBLE AND FOOTER
+=========================================================================*/
+
+/* LOGO */
+#logo {width:765px; height:214px; margin:9px 0 17px 9px; float:left;}
+* html #logo {float:none;}
+#logo em {background:url(../images/logoMain.jpg) no-repeat;}
+
+/* SKIP NAVIGATION LINK */
+.skipNavigationLink {margin:0; padding:0; text-align:center; font-size:1.2em;}
+.skipNavigationLink a, 
+.skipNavigationLink a:hover,
+.skipNavigationLink a:visited  {position:absolute; display:block; padding:4px; border:0; background:#FFF; color:#8A951D; left:0px; top:-500px; overflow:hidden;}
+.skipNavigationLink a:active,
+.skipNavigationLink a:focus {right:0; top:0; z-index:10;}
+
+
+/* ========= TOP NAVIGATION ========= */
+
+#topNavigation {float:left; width:455px;}
+
+/* FIRST LEVEL */
+#topNavigation ul.firstLevel {list-style:none; margin:0 0 0 8px;}
+#topNavigation ul.firstLevel:after,
+#topNavigation ul.firstLevel li:after {content: "."; display:block; height:0; clear:both; visibility:hidden;}
+#topNavigation ul.firstLevel li {float:left; font-family:Helvetica; width:auto; margin:0 6px 12px 0;}
+#topNavigation ul.firstLevel li a {background:url(../images/topNavNormalOut.gif) repeat-x; text-align:center; line-height:3.5em; height:3.5em; color:#919F00; font-family:Arial; font-weight:bold; text-decoration:none; position:relative; overflow:hidden; float:left; display:block;}
+* html #topNavigation ul.firstLevel li a {width:auto; height:auto; hei\ght:3.4em; line-height:1.6em; line-hei\ght:3.5em; text-align:justify; font-size:1.4em; f\ont-size:1em; position:static; p\osition:relative; display:inline-block; float:none; padding:5px; padd\ing:0;}
+* html>body #topNavigation ul.firstLevel li a {font-size:1.4em; width:auto !important; height:auto !important; float:left; text-align:center; line-height:1.6em; padding:5px; background-color:#FFF;}
+#topNavigation ul.firstLevel li a img {position:absolute; left:0; width:100%; height:200%;}
+#topNavigation ul.firstLevel li.home a {w\idth:5.4em;}
+#topNavigation ul.firstLevel li.development a {w\idth:9.9em;}
+#topNavigation ul.firstLevel li.design a {w\idth:6.1em;}
+#topNavigation ul.firstLevel li.interests a {w\idth:7.2em;}
+#topNavigation ul.firstLevel li.contact a {w\idth:6.7em;}
+#topNavigation ul.firstLevel li.blog a {w\idth:4.6em;}
+#topNavigation ul.firstLevel li a:hover,
+#topNavigation ul.firstLevel li a strong {color:#FFF; background:url(../images/topNavNormalOver.gif) bottom repeat-x;}
+#topNavigation ul.firstLevel li a strong {height:100%; display:block;}
+* html #topNavigation ul.firstLevel li a strong {margin:-5px; ma\rgin:0; padding:5px; padd\ing:0; f\loat:left; float:none; height:100%; display:inline-block; display:inline;}
+* html>body #topNavigation ul.firstLevel li a strong {padding:5px 5px 10px 5px; margin:-5px; float:left; width:auto !important; height:auto !important;}
+#topNavigation ul.firstLevel li a:hover img,
+#topNavigation ul.firstLevel li a strong img {position:absolute; top:-100% !important; display:block;}
+
+/* SECOND LEVEL */
+#topNavigation ul.secondLevel {list-style:none; margin:0 0 0 8px; width:445px;}
+* html>body #topNavigation ul.secondLevel {float:left;}
+#topNavigation ul.secondLevel:after {content: "."; display:block; height:0; clear:both; visibility:hidden;}
+#topNavigation ul.secondLevel li {display:inline; float:left; width:auto; margin:13px 19px 0 0; padding:0;}
+#topNavigation ul.secondLevel li a {white-space:nowrap; font-family:Arial; font-weight:bold; text-decoration:none; color:#FFF; font-size:1.3em;}
+#topNavigation ul.secondLevel li a:hover,
+#topNavigation ul.secondLevel li a strong {color:#919F00;}
+
+
+/* ========= SPEECH BUBBLE ========= */
+
+#speechBubble {font-size:1.2em; float:left; color:#8B8B8B; line-height:1.3em; width:305px; margin-left:10px; padding-top:19px; background:url(../images/speechBubbleTop.gif) left top no-repeat;}
+#speechBubble blockquote {padding:0 17px 50px 26px; margin:0; background:url(../images/speechBubbleBottom.gif) left bottom no-repeat;}
+#speechBubble p {margin:0;}
+#speechBubble a {color:#8B8B8B;}
+
+
+/* ========= FOOTER ========= */
+
+#footer {clear:both; position:relative; font-size:1.2em; line-height:1.6em; padding:71px 0 1.2em 0; min-height:70px; color:#FFF; text-align:center; vertical-align:middle; background:#899326 url(../images/bgStripFooter.jpg) repeat-x;}
+* html #footer {padding:71px 0 0 0; height:151px; he\ight:80px;}
+* html>body #footer {margin-bottom:-15px;}
+#footer p {margin:12px 0 15px 0;}
+#footer a {color:#FFF;}
+
+
+/*========================================================================
+	CONTENT AREA
+=========================================================================*/
+
+/* MAIN TITLE */
+h1.mainTitle {font-size:2.5em; color:#4A4A49; margin-bottom:15px; line-height:1em;}
+h1.mainTitle.noBox {margin:45px 0 -20px 24px;}
+.mainTitleOrange {color:#ff8d00; margin-bottom:12px;}
+h2.mainTitle {font-size:2em; color:#4A4A49; margin-bottom:12px; line-height:1em;}
+
+
+/* ========= TEXT AREAS, INTRO BOXES ========= */
+
+.introBox {box-sizing:border-box; box-shadow: 0px 5px 5px 0px rgba(189,199,64,0.7); margin:5px 0 0 0; width:100%; background:linear-gradient(#fcff6e, #fcff6e, #fcff6e, #ffe172); padding:20px; border-radius:10px; border:solid 3px #fcff6e;}
+.textArea {box-sizing:border-box; box-shadow: 0px 5px 5px 0px rgba(189,199,64,0.7); margin:35px 0 0 0; width:100%; background:linear-gradient(#fff, #fff, #fff, #e3e3e3); padding:20px; border-radius:10px; border:solid 3px #fff;}
+.textArea:hover {background:linear-gradient(#e3e3e3, #fff, #fff, #fff);}
+
+/* IMAGE */
+p.image {float:left; margin:0 20px 0 0; border:solid 3px #c4c2c2; border-radius:4px;}
+.textBox {float:left; color:#4A4A49; width:470px;}
+ 
+/* TEXT AREA */
+/*.textArea {margin:35px 0 0 0; background:url(../images/textAreaBgStrip.gif) left bottom repeat-y;}
+.textArea .bottomBorder {padding:0 20px 22px 23px; background:url(../images/textAreaBottom.gif) left bottom no-repeat;}
+.textArea h1,
+.textArea .topBorder {margin:0 -20px 10px -23px; color:#4A4A49; font-size:2.9em; font-family:Arial; line-height:1em; padding:20px 10px 0 23px; background:url(../images/textAreaTop.gif) left top no-repeat;}
+.textArea h2 {font-size:1.2em; margin-top:12px;}*/
+
+/* TEXT AREA WIDE */
+/*.textAreaWide {margin:10px 0 0 5px; width:765px; float:left; background:url(../images/textAreaWideBgStrip.gif) left bottom repeat-y;}
+* html .textAreaWide {margin-left:2px;}
+.textAreaWide .bottomBorder {padding:0 20px 22px 23px; overflow:hidden; background:url(../images/textAreaWideBottom.gif) left bottom no-repeat;}
+* html .textAreaWide .bottomBorder {height:1px; overflow:visible;}
+* html>body .textAreaWide .bottomBorder {height:auto; overflow:hidden;}
+.textAreaWide h1,
+.textAreaWide .topBorder {margin:0 -20px 10px -23px; padding:0 0 0 23px; height:20px; background:url(../images/textAreaWideTop.gif) left top no-repeat;}
+.textAreaWide h2 {font-size:1.2em; margin-top:12px;}*/
+
+
+/* ========= LISTS (for work pages) ========= */
+
+/* PROJECT LIST */
+ul#previewList {list-style:none; margin:-10px -100px 0 0; width:780px; position:relative; left:-10px;}
+* html ul#previewList {left:-25px; width:830px;}
+* html>body ul#previewList {margin-left:-8px;}
+ul#previewList li {width:376px; w\idth:343px; float:left; margin:25px 0 0 14px; padding:0 20px 29px 13px; background:url(../images/previewBoxBottom.gif) left bottom no-repeat;}
+* html ul#previewList li {padding-right:5px;}
+ul#previewList li h2 {margin:0 -20px 0 -13px; padding:11px 12px 10px 13px; color:#EF6F1B; font-family:Arial; background:url(../images/previewBoxTop.gif) left top no-repeat;}
+ul#previewList ul {list-style:square; margin-left:15px; margin-right:-50px; ma\rgin-right:0;}
+ul#previewList ul li {background:none; float:none; padding:0; margin:0;}
+ul#previewList p {padding:0; margin:0 0 3px 0;}
+ul#previewList p.imageBox {width:345px; margin-top:8px; padding:8px 0; text-align:center; background:url(../images/previewBoxImgBg.gif) left bottom no-repeat;}
+ul#previewList p.imageBox img {border-right:solid 2px #403E3E; border-bottom:solid 2px #403E3E; border-top:solid 1px #FFF; border-left:solid 1px #FFF;}
+
+/* IMAGE LIST (for floated images)*/
+ul.imageList {list-style:none; margin:15px 0 0 0;}
+ul.imageList li {float:left; margin:10px 10px 15px 30px;}
+
+/* ARTWORK LIST */
+ul.artworkList {list-style:none; margin:15px 0 0 0;}
+ul.artworkList li {margin-bottom:25px; padding:10px 0; text-align:center; background:url(../images/previewBoxImgBg.gif) left bottom repeat-x;}
+ul.artworkList img {border-right:solid 2px #403E3E; border-bottom:solid 2px #403E3E; border-top:solid 1px #FFF; border-left:solid 1px #FFF;}
+ul.artworkList a {padding:10px; margin:-10px 0; background:url(../images/previewBoxImgBg.gif) left bottom repeat-x; display:block; width:auto;}
+ul.artworkList a:hover {background:#899326;}
+
+/* PHOTOGRAPHY LIST */
+ul.photographyList {list-style:none; margin:15px 0 0 0;}
+ul.photographyList li {margin-bottom:25px; width:50%; float:left; padding:15px 0;}
+ul.photographyList img {margin-left:13px; border-right:solid 2px #403E3E; border-bottom:solid 2px #403E3E; border-top:solid 1px #FFF; border-left:solid 1px #FFF;}
+ul.photographyList li.left img {margin-left:23px;}
+ul.photographyList a {padding:10px; margin:-10px 0; background:none; display:block; width:auto;}
+ul.photographyList a:hover {background:#899326;}
+
+
+/* ========= FORMS ========= */
+
+/* CONTACT AND COMMENT FORM */
+#contactForm {width:320px; w\idth:290px; background:#EEE; padding:15px; float:left;}
+#contactForm legend,
+#commentForm legend {color:#000;}
+*:first-child+html legend {margin-left:-7px;} 
+* html legend {margin-left:-7px;}
+* html>body legend {margin-left:0;}
+#contactForm label,
+#commentForm label {display:block; margin-top:18px; font-weight:bold;}
+#contactForm input {width:100%;}
+#commentForm input {width:250px;}
+#contactForm textarea {width:100%;}
+#contactForm button {display:block; clear:both;}
+.error {font-style:normal; clear:both; display:block; font-weight:normal; color:#FF0066;}
+h3.error {margin-top:12px; font-style:normal; clear:both;}
+
+/* send button */
+input#sendButton_replace, 
+input#sendButton {width:110px; height:auto; float:right; margin-top:12px;}
+.sendButton_replace {display:block; width:94px; height:32px; float:right; margin-top:12px;}
+.sendButton_replace em {background:url(../images/buttonSend.gif) no-repeat;}
+
+/* contact logo image */
+#contactLogo {width:228px; height:343px; margin:45px 0 0 91px; float:left; background:url(../images/contactLogo.gif) no-repeat;}
+
+/* SEARCH FORM */
+#searchForm {margin:25px 0 40px 0;}
+#searchForm input {float:left;}
+#searchForm input#searchInput {width:130px; margin-right:10px;}
+
+/* COMMENTS */
+textarea#comment {width:488px;}
+
+
+/* ========= BLOG CONTENT ========= */
+
+/* BLOG BOX * (default is blog home */
+#blogBox {margin-top:38px; background:url(../images/blogBoxBgStrip.gif) repeat-y;}
+#blogBox .title {position:relative; z-index:1; padding-bottom:6px; position:relative; z-index:2; background:url(../images/blogBoxMiddle.gif) bottom no-repeat;}
+#blogBox h1 {color:#FFF; font-size:2.2em; font-weight:normal; margin:0; padding:9px 0 3px 21px; min-height:20px; background:url(../images/blogBoxTop.gif) no-repeat;}
+* html #blogBox h1 {height:35px; hei\ght:28px; padding:10px 0 2px 21px; padd\ing:7px 0 2px 21px;}
+* html>body #blogBox h1 {height:20px; padding:13px 0 7px 21px;}
+#blogBox ul.postList {position:relative; z-index:0; top:-1px; list-style:none; margin:0 0 -1px; padding:0 30px 20px 21px; background:url(../images/blogBoxBottom.gif) bottom no-repeat;}
+#blogBox ul.postList li {border-top:solid 1px #8B9621; padding-bottom:4px;}
+#blogBox ul.postList h4#respond {border-top:solid 1px #999; padding:10px 0 4px 0;}
+#blogBox ul.postList h4#leaveAReply {border-top:solid 1px #999; padding:10px 0 0 0;}
+#blogBox ul.postList li ol li {border-top:none;}
+#blogBox h2 {font-size:2.9em; font-family:Arial; line-height:1em; color:#4A4A49; margin:15px 0 0 0;}
+#blogBox h2 a {font-size:inherit; color:#4A4A49; text-decoration:none;}
+#blogBox h3 {font-size:1.2em; margin-top:12px;}
+#blogBox h4 {font-size:1em; color:#000;}
+#blogBox .date {font-style:normal; font-size:0.9em; color:#666;}
+#blogBox .postMetaData {font-style:normal; font-size:0.9em; color:#666;}
+
+/* category background colours */
+#blogBox .categoryArticles {background:url(../images/blogBoxCategoryArticlesTop.gif) no-repeat; padding-top:2px; margin-bottom:5px;}
+#blogBox .categoryArticles em {display:block; font-style:normal; color:#FFF; padding:0 0 2px 8px; background:url(../images/blogBoxCategoryArticlesBottom.gif) left bottom no-repeat;}
+#blogBox .categoryArticles a {color:#FFF;}
+#blogBox .categoryLinks {background:url(../images/blogBoxCategoryLinksTop.gif) no-repeat; padding-top:2px; margin-bottom:5px;}
+#blogBox .categoryLinks em {display:block; font-style:normal; color:#FFF; padding:0 0 2px 8px; background:url(../images/blogBoxCategoryLinksBottom.gif) left bottom no-repeat;}
+#blogBox .categoryLinks a {color:#FFF;}
+
+/* articles BLOG (image changes) */
+.articlesBlog #blogBox {background:url(../images/blogBoxArticlesBgStrip.gif) repeat-y;}
+.articlesBlog #blogBox .title {background:url(../images/blogBoxArticlesMiddle.gif) bottom no-repeat;}
+.articlesBlog #blogBox h1 {background:url(../images/blogBoxArticlesTop.gif) no-repeat;}
+.articlesBlog #blogBox ul.postList {background:url(../images/blogBoxArticlesBottom.gif) bottom no-repeat;}
+
+/* LINKS BLOG BOX (image changes) */
+.linksBlog #blogBox {background:url(../images/blogBoxLinksBgStrip.gif) repeat-y;}
+.linksBlog #blogBox .title {background:url(../images/blogBoxLinksMiddle.gif) bottom no-repeat;}
+.linksBlog #blogBox h1 {background:url(../images/blogBoxLinksTop.gif) no-repeat;}
+.linksBlog #blogBox ul.postList {background:url(../images/blogBoxLinksBottom.gif) bottom no-repeat;}
+
+
+/*========================================================================
+	RIGHT PANEL (only used on homepage and blog sections)
+=========================================================================*/
+
+/* TEXT STYLES */
+#rightPanel h2 {margin:4px 0 4px 10px; font-size:2.1em; font-family:Arial; font-weight:normal; color:#4A4A49;}
+#rightPanel h3 {font-size:2.3em; font-weight:normal;}
+#rightPanel h3 a {color:#FFF; text-decoration:none;}
+
+/* definition lists */
+#rightPanel dl {padding:0 20px 31px 22px;}
+#rightPanel dl:after {content: "."; display:block; height:0; clear:both; visibility:hidden;}
+#rightPanel dt {padding-top:27px; font-size:1.3em; font-size:1.6em; font-family:Arial; font-weight:bold; color:#4A4A49;}
+#rightPanel dt a {color:#4A4A49; text-decoration:none;}
+#rightPanel dd {margin:0; padding:0; display:inline-block;}
+#rightPanel dd p {margin:12px 0 0 0;}
+
+
+/* ========= ARTICLES & LINKS BOXES ========= 
+
+	THE articles AND LINKS BOXES HAVE THREE DIFFERENT STATES:
+	1. The first is the large/wide one on the homepage. This is where main styles are set (eg padding, margins, etc).
+	2. The second is for the Default Blog and articles Blog sections, where the box is thinner and sits at the top. These styles are only for image changes.
+	3. The third is for the Links Blog section. The box is thinner also and it sits at the top. These styles are mainly for image changes again. */
+
+
+/* STYLES FOR ALL LINK BOXES */
+#articlesBox dl,
+#linksBox dl {position:relative; z-index:1; margin-top:-25px;}
+* html #articlesBox dl,
+* html #linksBox dl {float:left;}
+#articlesBox dt,
+#linksBox dt {clear:both; float:left; width:100%; margin:15px 0 11px 0; padding-top:15px; position:relative; z-index:0; background:url(../images/articlesBoxSmallSeperator.gif) no-repeat;}
+* html>body #articlesBox dt,
+* html>body #linksBox dt {float:none;}
+#articlesBox dd,
+#linksBox dd {width:100%;}
+#articlesBox p,
+#linksBox p {margin:0 0 11px 0 !important;}
+
+
+/* ========= ARTICLES BOX ========= */
+
+/* LARGE ARTICLES BOX (for homepage) */
+#articlesBox {position:relative; background:url(../images/articlesBoxLargeBgStrip.gif) repeat-y; margin-top:24px; clear:both;}
+* html #articlesBox {height:1px;}
+* html>body #articlesBox {height:auto;}
+#articlesBox .title {background:url(../images/articlesBoxLargeMiddle.gif) bottom no-repeat; padding-bottom:27px; position:relative; z-index:2;}
+#articlesBox h3 {background:url(../images/articlesBoxLargeTop.jpg) no-repeat; color:#FFF; margin:0; padding:25px 0 8px 21px; min-height:20px;}
+* html #articlesBox h3 {height:53px; padding:26px 0 8px 21px; hei\ght:28px;}
+* html>body #articlesBox h3 {height:20px; padding:26px 0 7px 21px;}
+#articlesBox em.iconGraphic {position:absolute; right:14px; top:0; z-index:3; display:block; width:80px; height:74px; background:url(../images/articlesBoxNewspaperIcon.gif) no-repeat;}
+#articlesBox dl {background:url(../images/articlesBoxLargeBottom.jpg) left bottom no-repeat;}
+
+/* SMALL ARTICLES BOX - BLOG HOME & ARTICLES BLOG (when it is at top) */
+.blogHome #articlesBox,
+.articlesBlog #articlesBox {background:url(../images/articlesBoxSmallArticlesBlogBgStrip.gif) repeat-y;}
+.blogHome #articlesBox .title,
+.articlesBlog #articlesBox .title {background:url(../images/articlesBoxSmallArticlesBlogMiddle.gif) bottom no-repeat;}
+.blogHome #articlesBox h3,
+.articlesBlog #articlesBox h3 {background:url(../images/articlesBoxSmallArticlesBlogTop.gif) no-repeat;}
+.blogHome #articlesBox dl,
+.articlesBlog #articlesBox dl {background:url(../images/articlesBoxSmallArticlesBlogBottom.gif) left bottom no-repeat;}
+
+/* SMALL ARTICLES BOX - LINKS BLOG (when it is at bottom) */
+.linksBlog #articlesBox {margin-top:13px; background:url(../images/articlesBoxSmallLinksBlogBgStrip.gif) repeat-y;}
+.linksBlog #articlesBox .title {padding-bottom:23px; background:url(../images/articlesBoxSmallLinksBlogMiddle.gif) bottom no-repeat;}
+.linksBlog #articlesBox h3 {padding-bottom:5px; background:url(../images/articlesBoxSmallLinksBlogTop.gif) no-repeat;}
+.linksBlog #articlesBox em.iconGraphic {top:-1px;}
+.linksBlog #articlesBox dl {background:url(../images/articlesBoxSmallLinksBlogBottom.gif) left bottom no-repeat;}
+
+
+/* ========= LINKS BOX ========= */
+
+/* LARGE LINKS BOX (for homepage)  */
+#linksBox {position:relative; background:url(../images/linksBoxLargeBgStrip.gif) repeat-y; margin-top:13px; clear:both;}
+* html #linksBox {height:1px;}
+* html>body #linksBox {height:auto;}
+#linksBox .title {background:url(../images/linksBoxLargeMiddle.gif) bottom no-repeat; padding-bottom:25px; position:relative; z-index:2;}
+#linksBox h3 {background:url(../images/linksBoxLargeTop.jpg) 0 0 no-repeat; color:#FFF; margin:0; padding:23px 0 8px 21px; min-height:20px;}
+* html #linksBox h3 {height:51px; padding:24px 0 8px 21px; hei\ght:28px;}
+* html>body #linksBox h3 {height:20px; padding:24px 0 7px 21px;}
+#linksBox em.iconGraphic {position:absolute; right:14px; top:0; z-index:3; display:block; width:64px; height:67px; background:url(../images/linksBoxChainIcon.gif) no-repeat;}
+#linksBox dl {background:url(../images/linksBoxLargeBottom.jpg) left bottom no-repeat;}
+
+/* SMALL LINKS BOX - BLOG HOME & ARTICLES BLOG (when it is at bottom) */
+.blogHome #linksBox,
+.articlesBlog #linksBox {background:url(../images/linksBoxSmallArticlesBlogBgStrip.gif) 0 200px repeat-y !important;}
+.blogHome #linksBox .title,
+.articlesBlog #linksBox .title {background:url(../images/linksBoxSmallArticlesBlogMiddle.gif) bottom no-repeat;}
+.blogHome #linksBox h3,
+.articlesBlog #linksBox h3 {background:url(../images/linksBoxSmallArticlesBlogTop.gif) 0 0 no-repeat;}
+.blogHome #linksBox dl,
+.articlesBlog #linksBox dl {background:url(../images/linksBoxSmallArticlesBlogBottom.gif) left bottom no-repeat;}
+
+/* SMALL LINKS BOX - LINKS BLOG (when it is at top) */
+.linksBlog #linksBox {margin-top:24px; background:url(../images/linksBoxSmallLinksBlogBgStrip.gif) 0 200px repeat-y !important;}
+.linksBlog #linksBox .title {padding-bottom:25px; background:url(../images/linksBoxSmallLinksBlogMiddle.gif) bottom no-repeat;}
+.linksBlog #linksBox h3 {padding:21px 0 6px 21px; background:url(../images/linksBoxSmallLinksBlogTop.gif) 0 0 no-repeat;}
+* html>body.linksBlog #linksBox h3 {height:24px; padding:30px 0 1px 21px;}
+.linksBlog #linksBox em.iconGraphic {top:3px;}
+.linksBlog #linksBox dl {background:url(../images/linksBoxSmallLinksBlogBottom.gif) left bottom no-repeat;}
