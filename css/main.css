@@ -167,7 +167,7 @@ div:after {content: "."; display:block; height:0; clear:both; visibility:hidden;
 
 /* MAIN TITLE */
 h1.mainTitle {font-size:2.5em; color:#4A4A49; margin-bottom:15px; line-height:1em;}
-h1.mainTitle.noBox {margin:45px 0 -20px 24px;}
+h1.mainTitle.noBox {margin:45px 0 -30px 24px;}
 .mainTitleOrange {color:#ff8d00; margin-bottom:12px;}
 h2.mainTitle {font-size:2em; color:#4A4A49; margin-bottom:12px; line-height:1em;}
 
@@ -175,7 +175,7 @@ h2.mainTitle {font-size:2em; color:#4A4A49; margin-bottom:12px; line-height:1em;
 /* ========= TEXT AREAS, INTRO BOXES ========= */
 
 .introBox {box-sizing:border-box; box-shadow: 0px 5px 5px 0px rgba(189,199,64,0.7); margin:5px 0 0 0; width:100%; background:linear-gradient(#fcff6e, #fcff6e, #fcff6e, #ffe172); padding:20px; border-radius:10px; border:solid 3px #fcff6e;}
-.textArea {box-sizing:border-box; box-shadow: 0px 5px 5px 0px rgba(189,199,64,0.7); margin:35px 0 0 0; width:100%; background:linear-gradient(#fff, #fff, #fff, #e3e3e3); padding:20px; border-radius:10px; border:solid 3px #fff;}
+.textArea {box-sizing:border-box; box-shadow: 0px 5px 5px 0px rgba(189,199,64,0.7); margin:55px 0 0 0; width:100%; background:linear-gradient(#fff, #fff, #fff, #e3e3e3); padding:20px; border-radius:10px; border:solid 3px #fff;}
 .textArea:hover {background:linear-gradient(#e3e3e3, #fff, #fff, #fff);}
 
 /* IMAGE */
