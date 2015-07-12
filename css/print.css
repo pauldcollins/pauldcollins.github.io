@@ -1,3 +1,0 @@
-/* This hides the Flash headlines from the browser... regular browser text headlines will now print as normal */
-.sIFR-flash {display:none !important; height:0; width:0; position:absolute; overflow:hidden;}
-.sifr-alternate {visibility:visible !important; display:block !important; position:static !important; left:auto !important; top:auto !important;}
