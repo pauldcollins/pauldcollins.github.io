@@ -275,13 +275,23 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "\n" +
     "<div class=\"section-container\">\n" +
     "\n" +
-    "\n" +
     "<!--FRONT END DEVELOPMENT-->\n" +
     "	<section id=\"front-end-development\" class=\"title-area\">\n" +
     "		<div class=\"container column text\">\n" +
     "			<h1>Front End Development</h1>\n" +
     "		</div>\n" +
     "	</section>\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<div class=\"col-md-12 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Tranport ordering system</a></h2>\n" +
+    "				<p><strong>(Subject to NDA)</strong></p>\n" +
+    "				<p>Lead <strong>Angular</strong> developer on 5 month project, building a complete ordering system on JAVA platform. Setup of user roles and authentication, real time push notifications using <strong>Atmosphere JS</strong>, connecting to web services via a <strong>JSON RESTful API</strong>.</p>\n" +
+    "				<p>Other tech used: <strong>HTML, CSS, Grunt, Require.js, Bootstrap, Kendo, Node, Bower</strong>. </p>\n" +
+    "			</div>			\n" +
+    "		</div>\n" +
+    "	</section>	\n" +
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
@@ -321,9 +331,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "		<div class=\"container\">				\n" +
     "			<p class=\"col-md-3 image\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndWilsonStorage.jpg\" alt=\"Wilson Storage\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\">Medibank - Health Cover Health Check</a></h2>\n" +
-    "				<p>This was a single page app I built for potential customers to weigh up their current health plans against a Medibank one.</p>\n" +
-    "				<p>I built the app using a combination of <strong>JQuery, CSS and HTML5</strong>. The backend was a <strong>.NET</strong> environment and I worked with the developers to integrate the page.</p>\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\">Wilson Storage</a></h2>\n" +
+    "				<p>This was a <strong>Wordpress</strong> project I took over and completed as lead developer.</p>\n" +
+    "				I built the app using <strong>Jquery, CSS and HTML5</strong>, integrating various plugins for Wordpress.\n" +
     "			</div>			\n" +
     "		</div>				\n" +
     "	</section>		\n" +
