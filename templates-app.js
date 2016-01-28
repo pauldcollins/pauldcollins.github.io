@@ -333,7 +333,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			<div class=\"col-md-9 text-area\">\n" +
     "				<h2 class=\"mainTitle\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\">Wilson Storage</a></h2>\n" +
     "				<p>This was a <strong>Wordpress</strong> project I took over and completed as lead developer.</p>\n" +
-    "				I built the app using <strong>Jquery, CSS and HTML5</strong>, integrating various plugins for Wordpress.\n" +
+    "				<p>I built the app using <strong>Jquery, CSS and HTML5</strong> and integrated various plugins for Wordpress.</p>\n" +
     "			</div>			\n" +
     "		</div>				\n" +
     "	</section>		\n" +

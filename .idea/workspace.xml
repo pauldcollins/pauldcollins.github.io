@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a81b168-0828-4c48-9603-4d844690f17b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates-app.js" afterPath="$PROJECT_DIR$/templates-app.js" />
-    </list>
+    <list default="true" id="1a81b168-0828-4c48-9603-4d844690f17b" name="Default" comment="" />
     <ignored path="pauldcollins-LIVE.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
