@@ -1,0 +1,287 @@
+
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+/* ========================
+	HEADINGS & PARAGRAPHS 
+==========================*/
+
+h1, h2, h3 {
+	font-family: helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: -2.25px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+}
+
+p, li {
+	font-family: helvetica, arial, sans-serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
+a {
+	color: #3b5998;
+}
+
+/* ========================
+	LISTS 
+==========================*/
+
+.floated-items li {
+	float: left;
+	padding-right: 5px;
+}
+
+.no-background {
+	background: none;
+}
+
+/* ========================
+	 JUMBOTRON 
+==========================*/
+
+.jumbotron {
+	background: #e9eaed;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	font-size: 24px;
+}
+
+.jumbotron p {
+	font-size: 18px;
+}
+
+.jumbotron li {
+	font-size: 18px;
+	font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron {
+		padding: 15px 0;
+	}
+
+	.jumbotron p,
+	.jumbotron li {
+		font-size: medium;
+	}	
+}
+
+/* ========================
+	NAVBAR/HEADER
+==========================*/
+
+.navbar-inverse {
+	background-image: none;
+	background: #3b5998;
+	border-color: #29487d;
+}
+.navbar-title {
+	font-size: 20px;
+	font-family: Helvetica;
+	color: #fff;
+	padding-top: 7px;
+}
+
+.navbar-title .logo {
+	width: 35px;
+	display: inline-block;
+	margin-right: 8px;
+	float: left;
+}
+
+.navbar-title .logo img {
+	width: 100%;
+}
+
+.navbar-title .text-area {
+	margin: 5px 0 0 48px;
+	display: block;
+	width: 100%;
+	font-weight: 200;
+}
+
+@media(max-width:767px){
+	.navbar-title .text-area {
+		font-size: 14px;
+	}
+}
+
+/* ========================
+	CAROUSEL
+==========================*/
+
+.carousel-inner {
+	background: #fff;
+	border-radius: 3px;
+	min-height: 510px;
+}
+
+.carousel-inner .item {
+	overflow: auto;
+	padding: 0 100px;
+}
+
+.carousel-inner .item li {
+	margin-bottom: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #fff;
+    border: solid 1px #141823;
+}
+.carousel-indicators .active {
+    background-color: #141823;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-control .glyphicon {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   color: black;
+}
+
+/* only use use white for controls if 
+  browser supports stroke */
+@supports (-webkit-text-stroke-width: 1px) or
+	(text-stroke-width: 1px) {
+	.carousel-control .glyphicon {
+		color: #fff;
+	}
+}
+
+/* medium carousel */
+@media screen and (max-width: 1200px) { 
+	.carousel-inner .item {
+		padding: 80px 120px 40px;
+		min-height: 695px;
+	}
+}
+
+/* small carousel */
+@media screen and (max-width: 992px) { 
+	.carousel-inner .item {
+		padding: 50px 100px;
+		min-height: 740px;
+	}
+
+	.carousel-indicators	{
+		top: 30px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right	{
+		top: 30px;
+	}	
+}
+
+/* x-small carousel */
+@media screen and (max-width: 768px) {
+	.carousel-control .glyphicon {
+		color: black;
+	}
+
+	.carousel-inner .item {
+		padding: 50px 10px;
+		min-height: 760px;
+	}
+
+	.carousel-indicators	{
+		top: 20px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right	{
+		top: 20px;
+	}
+}
+
+/* ========================
+	FOOTER
+==========================*/
+
+@media(max-width:767px){
+	footer li {
+		font-size: 13px;
+	}
+}
+
+/* ========================
+ HELPER CLASSES 
+==========================*/
+
+@media screen and (min-width: 1200px) {
+	.p-t-1 {
+		padding-top: 15px;
+	}
+
+	.p-t-2 {
+		padding-top: 30px;
+	}
+
+	.p-t-3 {
+		padding-top: 45px;
+	}
+
+	.p-t-4 {
+		padding-top: 60px;
+	}
+
+	.p-t-5 {
+		padding-top: 75px;
+	}
+
+	.p-t-6 {
+		padding-top: 90px;
+	}
+
+	.p-t-7 {
+		padding-top: 105px;
+	}
+
+	.p-t-8 {
+		padding-top: 120px;
+	}
+
+	.p-t-9 {
+		padding-top: 135px;
+	}
+
+	.p-t-10 {
+		padding-top: 150px;
+	}
+
+	.p-t-11 {
+		padding-top: 165px;
+	}	
+
+	.p-t-12 {
+		padding-top: 180px;
+	}	
+
+	.p-b-2 {
+		padding-bottom: 30px;
+	}
+
+	.p-l-1 {
+		padding-left: 15px;
+	}
+}
+
+.full-width {
+	width: 100%;
+}
