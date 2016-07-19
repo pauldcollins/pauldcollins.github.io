@@ -439,7 +439,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "		</div>\n" +
     "	</section>\n" +
     "<!--intro-->\n" +
-    "	<section class=\"intro\">\n" +
+    "	<section>\n" +
     "		<div class=\"col-md-6\">\n" +
     "			<h2>Teaching</h2>\n" +
     "			<dl>\n" +
