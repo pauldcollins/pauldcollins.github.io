@@ -275,12 +275,34 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "\n" +
     "<div class=\"section-container\">\n" +
     "\n" +
+    "\n" +
     "<!--FRONT END DEVELOPMENT-->\n" +
     "	<section id=\"front-end-development\" class=\"title-area\">\n" +
     "		<div class=\"container column text\">\n" +
     "			<h1>Front End Development</h1>\n" +
     "		</div>\n" +
     "	</section>\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://anz.com.au\" target=\"_blank\">ANZ - Know Your Customer</a></h2>\n" +
+    "				<p>Here, in a team of 5 Front End Engineers, I built internal banking sofware, to add new customers. The software was built using <strong>Angular</strong> and <strong>Webpack</strong> on a <strong>JAVA</strong> platform.</p>\n" +
+    "				<p>Being internal, the software was limited to working on IE8, which meant we spent a lot of time handling performance issues and working with the <strong>JS profiler</strong> and <strong>flame graph</strong> to speed up the site.</p>\n" +
+    "			</div>\n" +
+    "		</div>\n" +
+    "	</section>			\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\">Quote Wall</a></h2>\n" +
+    "				<p><strong>Fun project:</strong> A wall of quotes, basic <strong>MVC</strong> built using <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>. Just barebones Javascript, with a little help from JQuery for animation.</p>\n" +
+    "			</div>			\n" +
+    "		</div>\n" +
+    "	</section>		\n" +
     "<!--project-->\n" +
     "	<section class=\"image\">	\n" +
     "		<div class=\"container\">						\n" +
@@ -295,14 +317,14 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\" alt=\"Medibank\"></a></p>			\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Medibank - About Us</a></h2>\n" +
-    "				<p>Here I was the lead Front End Developer for the first section released on Medibank's new <strong>Java/Adobe CQ5 Platform</strong>.</p>\n" +
-    "				<p>The responsive front end was built using a mixture of existing components as well as new ones I'd created for the Medibank Style Guide. I was also required to make sure it achieved a <strong>AA rating for WCAG 2.0</strong>. We collaborated in an Agile team using JIRA &amp; Stash.</p>\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://stopphubbing.com/\" target=\"_blank\">Stop Phubbing</a></h2>\n" +
+    "				<p>Stop Phubbing was a fun project I took over and completed as the sole Front End Dev. The idea was to bring awareness to \"the act of snubbing someone in a social setting by looking at your phone instead of paying attention\".</p>\n" +
+    "				<p>I built the site animation using a combination of <strong>JQuery, CSS and HTML5</strong>.</p>\n" +
     "			</div>			\n" +
     "		</div>				\n" +
-    "	</section>\n" +
+    "	</section>		\n" +
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
@@ -315,6 +337,18 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			</div>			\n" +
     "		</div>				\n" +
     "	</section>\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">				\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMyki.jpg\" alt=\"Master Your Myki\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\">Master Your Myki</a></h2>\n" +
+    "				<p><strong>Mobile first</strong> website designed to help people on the go master Melbourne's complex transport system! I was the sole developer, building the responsive site using <strong>HMTL, JAVA, CSS</strong> and <strong>Google Maps</strong>.</p>\n" +
+    "				<p>The site needed to be performant on mobile, so I setup <strong>CSS Sprites</strong> and build tools to optimise all files. (This was before service workers were an option).</p>\n" +
+    "				<p>There was a tight deadline of <strong>2 weeks</strong>, but along with the <strong>designer</strong> and <strong>project manager</strong>, we made it and had the site tested in time for the advertising campaign.</p>\n" +
+    "			</div>			\n" +
+    "		</div>				\n" +
+    "	</section>	\n" +
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
@@ -337,17 +371,6 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			</div>			\n" +
     "		</div>				\n" +
     "	</section>		\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://stopphubbing.com/\" target=\"_blank\">Stop Phubbing</a></h2>\n" +
-    "				<p>Stop Phubbing was a fun project I took over and completed as the sole Front End Dev. The idea was to bring awareness to \"the act of snubbing someone in a social setting by looking at your phone instead of paying attention\".</p>\n" +
-    "				<p>I built the site animation using a combination of <strong>JQuery, CSS and HTML5</strong>.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>	\n" +
     "\n" +
     "\n" +
     "<!--UX DESIGN-->\n" +
@@ -370,23 +393,134 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "\n" +
     "\n" +
     "<!--ACCESSIBILITY-->\n" +
-    "<!-- 	<section id=\"accessibility\" class=\"title-area\">\n" +
+    "	<section id=\"accessibility\" class=\"title-area\">\n" +
     "		<div class=\"container column text\">\n" +
     "			<h1>Accessibility</h1>\n" +
     "		</div>\n" +
-    "	</section> -->\n" +
+    "	</section>\n" +
+    "<!--intro-->\n" +
+    "	<section class=\"intro\">\n" +
+    "		<p>\n" +
+    "			In my second web role, way back in 2003, (yes that long ago!), I ran our site through the <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\">Bobby validator</a> and <a href=\"https://validator.w3.org/\" target=\"_blank\">W3C Validator</a>, quickly learning that our site didn't comply with basic coding standards, <strong>let alone was it accessible</strong>. I convinced my boss to send me on an accessibility training course, achieved my certificate, then <strong>trained our team of 40 plus staff</strong>, including front and back end developers, project managers and the like.\n" +
+    "		</p>\n" +
+    "		<p>\n" +
+    "			I've since always tried to advocate for accessibility in my projects and worked on sites that are both AA and AAA compliant. More recently, I've begun to teach accessibility and present at meetups.\n" +
+    "		</p>\n" +
+    "	</section>\n" +
     "<!--project-->\n" +
-    "<!-- 	<section class=\"image left-image\">	\n" +
+    "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\"><img src=\"assets/images/ux-design/craft-fare-image.jpg\" alt=\"Craft Fare\"></a></p>			\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\"><img src=\"assets/images/accessibility/rnid.jpg\" alt=\"Action on Hearing Loss website\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Case study - Craft fare</a></h2>\n" +
-    "				<p>Starting Feb 2015, I studied course in UX Design at <a href=\"https://generalassemb.ly/melbourne\" target=\"_blank\">General Assembly</a> for 12 weeks. I created an app called <strong>\"Craft Fare\"</strong>, which people could use to match beer and food. As part of the course, I applied a range of UX principles to my project, resulting in a final document of work.</p>\n" +
-    "				<p><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Click here to view my presentation</a></p>\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Action on hearing loss</a></h2>\n" +
+    "				<p>I worked for 8 months on the previous website for the <strong>Royal National Institute for the Deaf</strong>, now known as <strong>Action on Hearing Loss</strong>. The site needed to be AAA compliant for it's audience.</p>\n" +
+    "				<p>We worked hard to make sure the site was accessible to all. On top of the AA accessibility requirements, we also added video captioning, sign language interpretation and regularly user tested as we progressed. I was proud of the end product and the <acronym title=\"Royal National Institute for the Deaf\">RNID</acronym> received critical acclaim for the site.</p>\n" +
+    "				<p><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Click here to view the Action Hearing Loss website</a></p>\n" +
     "			</div>			\n" +
     "		</div>				\n" +
-    "	</section> -->\n" +
+    "	</section>\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">				\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\" alt=\"Medibank\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Medibank - About Us</a></h2>\n" +
+    "				<p>Here I was the lead Front End Developer for the first section released on Medibank's new <strong>Java/Adobe CQ5 Platform</strong>.</p>\n" +
+    "				<p>The site was built to be AA compliant with a responsive front end. I created new, reusable components for the style guide that conformed to a <strong>AA rating for WCAG 2.0</strong>. We collaborated in an Agile team using JIRA &amp; Stash.</p>\n" +
+    "			</div>			\n" +
+    "		</div>				\n" +
+    "	</section>\n" +
     "\n" +
-    "	 				\n" +
-    "");
+    "\n" +
+    "<!--TEACHING, TALKS, PUBLICATIONS-->\n" +
+    "	<section id=\"teachings\" class=\"title-area\">\n" +
+    "		<div class=\"container column text\">\n" +
+    "			<h1>Teaching, Talks, Publications</h1>\n" +
+    "		</div>\n" +
+    "	</section>\n" +
+    "<!--intro-->\n" +
+    "	<section class=\"intro\">\n" +
+    "		<div class=\"col-md-6\">\n" +
+    "			<h2>Teaching</h2>\n" +
+    "			<dl>\n" +
+    "				<dt>\"Introduction to Web Accessibility\"</dt>\n" +
+    "				<dd>\n" +
+    "					3 Hour workshop at General Assembly Melbourne.<br>Taught on March and July 2016<br>\n" +
+    "					<a target=\"_blank\" href=\"http://ga.co/1oDoDTZ\">View introduction to accessibility course</a>\n" +
+    "				</dd>\n" +
+    "			</dl>\n" +
+    "\n" +
+    "			<h2>Publications</h2>\n" +
+    "			<dl>\n" +
+    "				<dt>\"9 Ways Facebook Can Improve Accessibility\"</dt>\n" +
+    "				<dd>					\n" +
+    "					<a target=\"_blank\" href=\"https://medium.com/@pcollins/9-ways-facebook-can-improve-accessibility-aa193ee7591a#.v5kq62ggo\">Read article: 9 ways Facebook can improve accessibility</a>\n" +
+    "				</dd>\n" +
+    "				<dt>\"5 Awesome Things Facebook is Doing for Accessibility\"</dt>\n" +
+    "				<dd>					\n" +
+    "					<a target=\"_blank\" href=\"https://medium.com/@pcollins/5-awesome-things-facebook-is-doing-for-accessibility-d329e390c6b4\">Read article: 5 Awesome Things Facebook is Doing for Accessibility</a>\n" +
+    "				</dd>				\n" +
+    "			</dl>			\n" +
+    "		</div>\n" +
+    "\n" +
+    "		<div class=\"col-md-6\">\n" +
+    "			<h2>Presentations</h2>\n" +
+    "			<dl>\n" +
+    "				<dt>\"Accessibility Testing Tools\"</dt>\n" +
+    "				<dd>\n" +
+    "					A11y Bytes, May 2016<br>\n" +
+    "					<a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\">View A11y Bytes website</a><br>\n" +
+    "					<a href=\"http://pauldcollins.github.io/presentations/a11yBytes/\" target=\"_blank\">View accessibility testing tools presentation</a>\n" +
+    "				</dd>\n" +
+    "				<dt>\"Using ARIA in depth\"</dt>\n" +
+    "				<dd>\n" +
+    "					Odecee Brownbag, March 2016<br>\n" +
+    "					<a href=\"assets/images/teaching/Web-Accessibility-Paul-Collins.pdf\" target=\"_blank\">View using ARIA in depth presentation (PDF)</a>\n" +
+    "				</dd>\n" +
+    "			</dl>\n" +
+    "		</div>\n" +
+    "		<div class=\"clear\"></div>\n" +
+    "	</section>\n" +
+    "\n" +
+    "\n" +
+    "<!--HOBBIES-->\n" +
+    "	<section id=\"hobbies\" class=\"title-area\">\n" +
+    "		<div class=\"container column text\">\n" +
+    "			<h1>Hobbies</h1>\n" +
+    "		</div>\n" +
+    "	</section>\n" +
+    "<!--intro-->\n" +
+    "	<section class=\"intro\">\n" +
+    "		<p>\n" +
+    "			When not doing digital, it's good to have another outlet!<br>\n" +
+    "			Here are some of my paintings below...\n" +
+    "		</p>\n" +
+    "	</section>	\n" +
+    "<!--image list-->\n" +
+    "	<section class=\"image-list\">\n" +
+    "		<div class=\"col-md-6\">\n" +
+    "			<p><img src=\"assets/images/hobbies/acland_street.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/bayswater.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/brighton.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/dublin.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_0298.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_1113.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_3376.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_3512.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_3725.jpg\" alt=\"\"></p>\n" +
+    "		</div>\n" +
+    "		<div class=\"col-md-6\">\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_4326.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_4982.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/IMG_5417.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/london.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/mitcham.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/nunnas_1.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/plaistow.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/westbourne_park.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/westbourne_tizer.jpg\" alt=\"\"></p>\n" +
+    "			<p><img src=\"assets/images/hobbies/nunnas_2.jpg\" alt=\"\"></p>\n" +
+    "<!-- 			<p><img src=\"assets/images/hobbies/IMG_3816.jpg\" alt=\"\"></p> -->\n" +
+    "		</div>\n" +
+    "	</section>	");
 }]);

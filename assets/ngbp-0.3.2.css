@@ -6226,10 +6226,29 @@ a {
 a:hover {
   color: #d50c05;
 }
+dl {
+  padding-bottom: 12px;
+}
+dl dt {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+dl dd {
+  margin-bottom: 17px;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+acronym {
+  border-bottom: dotted 1px #000;
+}
 html,
 body {
   height: 100%;
   color: #666;
+}
+.clear {
+  clear: both;
+  display: block !important;
 }
 /**
  * Navigation
@@ -6240,6 +6259,11 @@ body {
 }
 .navbar .navbar-brand {
   padding: 8px 15px 15px;
+}
+@media (max-width: 992px) {
+  .nav > li > a {
+    padding: 0 15px 10px;
+  }
 }
 @media (min-width: 1200px) {
   .navbar {
@@ -6252,6 +6276,14 @@ body {
 .main-container {
   padding: 0;
   width: 100%;
+}
+@media (max-width: 1200px) {
+  section {
+    padding: 4em;
+  }
+}
+.intro {
+  text-align: center;
 }
 .title-area {
   padding: 50px 0;
@@ -6279,12 +6311,11 @@ body {
   }
 }
 .left-image .container {
-  display: table;
+  padding: 0;
 }
 .left-image .image {
   padding: 5px;
   border: solid 1px #f2f2f2;
-  display: table-cell;
   float: none;
 }
 .left-image .image:hover {
@@ -6293,14 +6324,41 @@ body {
 .left-image .image img {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .left-image .image {
+    margin-bottom: 20px;
+  }
+}
 .left-image .text-area {
   text-align: left;
-  display: table-cell;
   vertical-align: middle;
   float: none;
 }
 .left-image .text-area p:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .left-image .container {
+    display: table;
+  }
+  .left-image .image,
+  .left-image .text-area {
+    display: table-cell;
+  }
+}
+@media (max-width: 769px) {
+  .left-image .container {
+    width: auto !important;
+  }
+}
+.image-list p {
+  padding: 5px;
+  border: solid 1px #d9d9d9;
+  float: none;
+  margin-bottom: 25px;
+}
+.image-list img {
+  width: 100%;
 }
 /**
  * Footer
@@ -6361,6 +6419,11 @@ footer .social li a:visited:hover {
   text-decoration: none;
   border-bottom: solid 1px rgba(255, 255, 255, 0.7);
 }
+@media (max-width: 768px) {
+  .jumbotron a {
+    border-bottom: none;
+  }
+}
 .jumbotron h1 a {
   border-bottom: none;
 }
@@ -6377,9 +6440,9 @@ footer .social li a:visited:hover {
 }
 .jumbotron ul.links {
   list-style: none;
-  margin: 0 auto;
+  margin: 0 auto 12px;
   padding: 0;
-  width: auto;
+  width: 60%;
 }
 .jumbotron ul.links li {
   margin: 0;
@@ -6390,6 +6453,11 @@ footer .social li a:visited:hover {
 .jumbotron ul.links li i {
   font-size: 18px;
   opacity: 0.4;
+}
+@media (min-width: 992px) {
+  .jumbotron {
+    width: auto;
+  }
 }
 .jumbotron .btn {
   font-size: 21px;
