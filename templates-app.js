@@ -288,8 +288,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			<p class=\"col-md-3 image\"><a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
     "				<h2 class=\"mainTitle\"><a href=\"http://anz.com.au\" target=\"_blank\">ANZ - Know Your Customer</a></h2>\n" +
-    "				<p>Here, in a team of 5 Front End Engineers, I built internal banking sofware, to add new customers. The software was built using <strong>Angular</strong> and <strong>Webpack</strong> on a <strong>JAVA</strong> platform.</p>\n" +
-    "				<p>Being internal, the software was limited to working on IE8, which meant we spent a lot of time handling performance issues and working with the <strong>JS profiler</strong> and <strong>flame graph</strong> to speed up the site.</p>\n" +
+    "				<p>Here I worked with 5 Front End Engineers to build internal banking sofware, enabling staff to add and edit new customers. The software was built using <strong>Angular</strong> and <strong>Webpack</strong> on a <strong>JAVA</strong> platform.</p>\n" +
+    "				<p>The software was internal and limited to <strong>working on IE8</strong>, which meant we spent a lot of time handling performance issues and working with the <strong>JS profiler</strong> and <strong>flame graph</strong> to speed up the site.</p>\n" +
     "			</div>\n" +
     "		</div>\n" +
     "	</section>			\n" +
@@ -299,7 +299,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			<p class=\"col-md-3 image\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
     "				<h2 class=\"mainTitle\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\">Quote Wall</a></h2>\n" +
-    "				<p><strong>Fun project:</strong> A wall of quotes, basic <strong>MVC</strong> built using <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>. Just barebones Javascript, with a little help from JQuery for animation.</p>\n" +
+    "				<p><strong>Fun project:</strong> A wall of quotes. Basic <strong>MVC</strong> pattern, built using <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>. Just barebones Javascript, with a little help from JQuery for animation.</p>\n" +
     "			</div>			\n" +
     "		</div>\n" +
     "	</section>		\n" +
@@ -332,7 +332,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			<div class=\"col-md-9 text-area\">\n" +
     "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about/investor-centre\" target=\"_blank\">Medibank - Investor Centre</a></h2>\n" +
     "				<p>Here I was also the lead Front End Developer for the newly floated Medibank investor centre site, built on a <strong>Java/Adobe CQ5 Platform</strong>.</p>\n" +
-    "				<p>The responsive front end was also built using components I created for the style guide, which we again integrated into CQ5 templates.</p>\n" +
+    "				<p>The responsive front end was also built using components I created for the style guide, which we again integrated into <strong>CQ5 templates</strong>.</p>\n" +
     "				<p>The site used <strong>Iguana</strong> to bring in all the ASX share information and I worked with their team to customise how the data was presented.</p>\n" +
     "			</div>			\n" +
     "		</div>				\n" +
@@ -345,7 +345,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "				<h2 class=\"mainTitle\"><a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\">Master Your Myki</a></h2>\n" +
     "				<p><strong>Mobile first</strong> website designed to help people on the go master Melbourne's complex transport system! I was the sole developer, building the responsive site using <strong>HMTL, JAVA, CSS</strong> and <strong>Google Maps</strong>.</p>\n" +
     "				<p>The site needed to be performant on mobile, so I setup <strong>CSS Sprites</strong> and build tools to optimise all files. (This was before service workers were an option).</p>\n" +
-    "				<p>There was a tight deadline of <strong>2 weeks</strong>, but along with the <strong>designer</strong> and <strong>project manager</strong>, we made it and had the site tested in time for the advertising campaign.</p>\n" +
+    "				<p>There was a tight deadline of <strong>2 weeks</strong>, but along with the <strong>designer</strong> and <strong>project manager</strong>, we had the site built, tested and live in time for the advertising campaign.</p>\n" +
     "			</div>			\n" +
     "		</div>				\n" +
     "	</section>	\n" +
@@ -404,7 +404,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			In my second web role, way back in 2003, (yes that long ago!), I ran our site through the <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\">Bobby validator</a> and <a href=\"https://validator.w3.org/\" target=\"_blank\">W3C Validator</a>, quickly learning that our site didn't comply with basic coding standards, <strong>let alone was it accessible</strong>. I convinced my boss to send me on an accessibility training course, achieved my certificate, then <strong>trained our team of 40 plus staff</strong>, including front and back end developers, project managers and the like.\n" +
     "		</p>\n" +
     "		<p>\n" +
-    "			I've since always tried to advocate for accessibility in my projects and worked on sites that are both AA and AAA compliant. More recently, I've begun to teach accessibility and present at meetups.\n" +
+    "			I've since always tried to advocate for accessibility in my projects and worked on sites that are both <strong>AA and AAA compliant</strong>. More recently, I've begun to teach accessibility and present at meetups.\n" +
     "		</p>\n" +
     "	</section>\n" +
     "<!--project-->\n" +
@@ -492,7 +492,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "<!--intro-->\n" +
     "	<section class=\"intro\">\n" +
     "		<p>\n" +
-    "			When not doing digital, it's good to have another outlet!<br>\n" +
+    "			As a kid I always loved drawing on paper, then I discovered the spray can. Once I realised how big you could paint using this tool and how open it was to experimentation, <strong>I was hooked on the art form</strong>! I've since painted in many cities around the world and made great friends along the way.<br>			\n" +
+    "		</p>\n" +
+    "		<p>\n" +
     "			Here are some of my paintings below...\n" +
     "		</p>\n" +
     "	</section>	\n" +
