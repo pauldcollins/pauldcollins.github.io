@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>A11yBytes-Screen-Readers</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section data-bespoke-backdrop="special">
+        <h1>Accessibility Testing Tools</h1>
+        <h2>Paul Collins</h2><img src="images/odecee.png" alt="Odecee Logo" class="odecee-logo">
+      </section>
+      <section><img src="images/bobby-icon.png" alt="Bobby Accessibility testing logo" class="bobby-icon">
+        <h1 class="h2 bobby">Early testing</h1>
+        <ul>
+          <li>Bobby Worked for WCAG 1 and testing rendered online pages</li>
+          <li>Unable to test dynamic HTML, Javascript</li>
+          <li>Tests are run after you build, not during</li>
+          <li>Returned too many false positives</li>
+        </ul>
+      </section>
+      <section>
+        <h1 class="h2">Four current testing tools...</h1>
+      </section>
+      <section>
+        <h1 class="h2">HTML Code Sniffer bookmark</h1>
+        <h3><em>by Squizlabs</em></h3>
+        <p><a href="http://squizlabs.github.io/HTML_CodeSniffer/">http://squizlabs.github.io/HTML_CodeSniffer/</a></p><br>
+        <ul>
+          <li><strong>BOOKMARK TO TEST ACCESSIBILITY OF A SINGLE PAGE</strong></li>
+          <li>Displays pointer on page to show where element is</li>
+          <li>Shows line of code in error and suggests solutions</li>
+          <li>Can turn off warnings and only show errors</li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
+        <h1 class="h2">Colour contrast analyser</h1>
+        <h3><em>by Paciello Group</em></h3>
+        <p><a href="https://www.paciellogroup.com/resources/contrastanalyser/">https://www.paciellogroup.com/resources/contrastanalyser/</a></p><br>
+        <ul>
+          <li><strong>'EYE DROP' ELEMENTS ON A PAGE FOR COLOUR CONTRAST</strong></li>
+          <li>Let's you know if you passed both <strong>AA</strong> and <strong>AAA</strong> guidelines</li>
+          <li>You can change colours to find a combination that works</li>
+          <li>Word 'colour' is spelt correctly for a change!</li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
+        <h1 class="h2">Axe Core library</h1>
+        <h3><em>by Deque systems</em></h3>
+        <p><a href="https://github.com/dequelabs/axe-core">https://github.com/dequelabs/axe-core</a></p><br>
+        <ul>
+          <li><strong>ACCESSIBILITY TESTING ENGINE</strong></li>
+          <li>Can be integrated into your production test environment</li>
+          <li>Tests your compiled DOM code</li>
+          <li>Can write your own rules for e2e testing</li>
+          <li>Open source, free to download</li>
+        </ul>
+      </section>
+      <section>
+        <h1 class="h2">Axe test code sample</h1>
+        <pre><code class="language-javascript">it('should report that good HTML is good', function (done) {
+  var workingDOM = document.getElementById('working');
+  axe.a11yCheck(workingDOM, null, function (result) {
+    expect(result.violations.length).toBe(0);
+    done();
+  });
+});
+</code></pre>
+      </section>
+      <section>
+        <h1 class="h2">Tenon.io</h1>
+        <h3><em>by Karl Groves</em></h3>
+        <p><a href="http://tenon.io/">http://tenon.io/</a></p><br>
+        <ul>
+          <li><strong>COMPLETE SOFTWARE FOR ACCESSIBILITY TESTING</strong></li>
+          <li>API with JSON response you can integrate into your build tools</li>
+          <li>Dashboard for reports and records of previous tests</li>
+          <li>Change levels of testing: Certainty, Viewport Size, Browser agent</li>
+          <li>Test each visitor to your site</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Cheers!</h2><br>
+        <p><a href="http://twitter.com/paulcollins"> @paulcollins</a></p>
+        <p><a href="http://pauldcollins.github.io"> pauldcollins.github.io</a></p>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>

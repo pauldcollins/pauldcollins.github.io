@@ -316,6 +316,17 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "	</section>	\n" +
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://app.outreached.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndOutreached.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://app.outreached.com.au/\" target=\"_blank\">Outreached</a></h2>\n" +
+    "				<p>For a new startup, I built a working prototype for a social media campaign manager. We used the <a href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\">Homer theme</a> so we could set up quickly and build out components fast. I did the <strong>UX Design</strong> and customised the theme using <strong>Angular, CSS, HTML, Bootstrap</strong>. It was Optimised for iPad and web.</p>\n" +
+    "				<p>We were working to a tight deadline and it was getting tested by a client as we built, so I could <strong>get instant feedback and push changes straight away</strong>. On this project I learned the importance of not always being fussy about code in the interest of iterating quickly!</p>\n" +
+    "			</div>			\n" +
+    "		</div>\n" +
+    "	</section>		\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">				\n" +
     "			<p class=\"col-md-3 image\"><a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
@@ -470,7 +481,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "				<dd>\n" +
     "					A11y Bytes, May 2016<br>\n" +
     "					<a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\">View A11y Bytes website</a><br>\n" +
-    "					<a href=\"http://pauldcollins.github.io/presentations/a11yBytes/\" target=\"_blank\">View accessibility testing tools presentation</a>\n" +
+    "					<a href=\"http://pauldcollins.github.io/assets/presentations/a11yBytes/\" target=\"_blank\">View accessibility testing tools presentation</a>\n" +
     "				</dd>\n" +
     "				<dt>\"Using ARIA in depth\"</dt>\n" +
     "				<dd>\n" +
