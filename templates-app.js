@@ -491,49 +491,5 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "			</dl>\n" +
     "		</div>\n" +
     "		<div class=\"clear\"></div>\n" +
-    "	</section>\n" +
-    "\n" +
-    "\n" +
-    "<!--HOBBIES-->\n" +
-    "	<section id=\"hobbies\" class=\"title-area\">\n" +
-    "		<div class=\"container column text\">\n" +
-    "			<h1>Hobbies</h1>\n" +
-    "		</div>\n" +
-    "	</section>\n" +
-    "<!--intro-->\n" +
-    "	<section class=\"intro\">\n" +
-    "		<p>\n" +
-    "			As a kid I always loved drawing on paper, then I discovered the spray can. Once I realised how big you could paint using this tool and how open it was to experimentation, <strong>I was hooked on the art form</strong>! I've since painted in many cities around the world and made great friends along the way.<br>			\n" +
-    "		</p>\n" +
-    "		<p>\n" +
-    "			Here are some of my paintings below...\n" +
-    "		</p>\n" +
-    "	</section>	\n" +
-    "<!--image list-->\n" +
-    "	<section class=\"image-list\">\n" +
-    "		<div class=\"col-md-6\">\n" +
-    "			<p><img src=\"assets/images/hobbies/acland_street.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/bayswater.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/brighton.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/dublin.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_0298.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_1113.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_3376.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_3512.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_3725.jpg\" alt=\"\"></p>\n" +
-    "		</div>\n" +
-    "		<div class=\"col-md-6\">\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_4326.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_4982.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/IMG_5417.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/london.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/mitcham.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/nunnas_1.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/plaistow.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/westbourne_park.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/westbourne_tizer.jpg\" alt=\"\"></p>\n" +
-    "			<p><img src=\"assets/images/hobbies/nunnas_2.jpg\" alt=\"\"></p>\n" +
-    "<!-- 			<p><img src=\"assets/images/hobbies/IMG_3816.jpg\" alt=\"\"></p> -->\n" +
-    "		</div>\n" +
-    "	</section>	");
+    "	</section>");
 }]);
