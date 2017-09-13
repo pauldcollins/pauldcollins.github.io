@@ -285,7 +285,31 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"https://altvr.com\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\" alt=\"Altspace VR\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://nab.com.au\" target=\"_blank\">Altspace VR</a></h2>\n" +
+    "				<p>This is a prototype I designed and built for the admin section of a Virtual Reality App. It's built using \n" +
+    "				<strong>ReactJS, HTML</strong> &amp; <strong>CSS</strong></p>\n" +
+    "				<p>The old design needed rehashing, so I worked on testing the <strong>UX</strong> and designing the look and feel, to make it better for the end user.</p>\n" +
+    "			</div>\n" +
+    "		</div>\n" +
+    "	</section>	\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://nab.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndNAB.jpg\" alt=\"NAB Internet Banking\"></a></p>			\n" +
+    "			<div class=\"col-md-9 text-area\">\n" +
+    "				<h2 class=\"mainTitle\"><a href=\"http://nab.com.au\" target=\"_blank\">NAB Internet Banking</a></h2>\n" +
+    "				<p>Here I worked on one of four Agile squads to completely rebuild NAB's Internet Banking website. The site was built using <strong>Angular, Redux, Bootstrap &amp; Webpack</strong>.</p>\n" +
+    "				<p>Meeting accessibility was a challenge for both the testing and development teams when I arrived. I took the lead and trained other developers on <strong>HTML/CSS standards</strong> and <strong>Accessibility</strong>.\n" +
+    "				I also implemented an Accesibility testing framework - <strong>Axe Core</strong>, across the project, to ensure we were meeting requirements even after I moved on.</p>\n" +
+    "			</div>\n" +
+    "		</div>\n" +
+    "	</section>			\n" +
+    "<!--project-->\n" +
+    "	<section class=\"image left-image\">	\n" +
+    "		<div class=\"container\">						\n" +
+    "			<p class=\"col-md-3 image\"><a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"ANZ\"></a></p>			\n" +
     "			<div class=\"col-md-9 text-area\">\n" +
     "				<h2 class=\"mainTitle\"><a href=\"http://anz.com.au\" target=\"_blank\">ANZ - Know Your Customer</a></h2>\n" +
     "				<p>Here I worked with 5 Front End Engineers to build internal banking sofware, enabling staff to add and edit new customers. The software was built using <strong>Angular</strong> and <strong>Webpack</strong> on a <strong>JAVA</strong> platform.</p>\n" +
@@ -302,18 +326,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "				<p><strong>Fun project:</strong> A wall of quotes. Basic <strong>MVC</strong> pattern, built using <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>. Just barebones Javascript, with a little help from JQuery for animation.</p>\n" +
     "			</div>			\n" +
     "		</div>\n" +
-    "	</section>		\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<div class=\"col-md-12 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Tranport ordering system</a></h2>\n" +
-    "				<p><strong>(Subject to NDA)</strong></p>\n" +
-    "				<p>Lead <strong>Angular</strong> developer on 5 month project, building a complete ordering system on JAVA platform. Setup of user roles and authentication, real time push notifications using <strong>Atmosphere JS</strong>, connecting to web services via a <strong>JSON RESTful API</strong>.</p>\n" +
-    "				<p>Other tech used: <strong>HTML, CSS, Grunt, Require.js, Bootstrap, Kendo, Node, Bower</strong>. </p>\n" +
-    "			</div>			\n" +
-    "		</div>\n" +
-    "	</section>	\n" +
+    "	</section>			\n" +
     "<!--project-->\n" +
     "	<section class=\"image left-image\">	\n" +
     "		<div class=\"container\">						\n" +
