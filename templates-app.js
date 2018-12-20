@@ -272,237 +272,575 @@ angular.module("about/about.tpl.html", []).run(["$templateCache", function($temp
 
 angular.module("home/home.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("home/home.tpl.html",
-    "\n" +
     "<div class=\"section-container\">\n" +
+    "  <!--FRONT END DEVELOPMENT-->\n" +
+    "  <section id=\"front-end-development\" class=\"title-area\">\n" +
+    "    <div class=\"container column text\"><h1>Front End Development</h1></div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://good.work/\" target=\"_blank\"\n" +
+    "          ><img src=\"assets/images/frontEnd/frontEndGoodwork.jpg\" alt=\"Goodwork\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://good.work/\" target=\"_blank\">goodwork</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Here I am working with small team to build a React Native Mobile\n" +
+    "          project. We launched earlier in 2018 and gained 7000 users in 6\n" +
+    "          months.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          My role is heavily product focused and I work closely with Design and\n" +
+    "          UX to analyse data, do user research, build prototypes, then finally\n" +
+    "          build out the components and features that our members want!\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The site is built using React Native, Redux and Node JS for the\n" +
+    "          backend. Challenges overcome have included learning mobile app\n" +
+    "          development and getting to know our customers well enough to be able\n" +
+    "          to support their needs.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://map.what3words.com\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndWhat3Words.jpg\"\n" +
+    "            alt=\"What3words\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://map.what3words.com\" target=\"_blank\"\n" +
+    "            >What3words Map Site</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          This was a custom map site I built for the navigation startup\n" +
+    "          What3words.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          React app using a Storybook library of components. Worked closely with\n" +
+    "          the Design team to create the components, design interactions and\n" +
+    "          animations. Challenges included detailed integration of several map\n" +
+    "          APIs, including Google Maps, Esri and Mapbox and laying the What3Words\n" +
+    "          grid and pin over them. The site and components were made to be\n" +
+    "          responsive on all devices.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://altvr.com\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\"\n" +
+    "            alt=\"Altspace VR\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://nab.com.au\" target=\"_blank\">Altspace VR</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          This is a prototype I designed and built for the admin section of a\n" +
+    "          Virtual Reality App. It's built using\n" +
+    "          <strong>ReactJS, HTML</strong> &amp; <strong>CSS</strong>\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The old design needed rehashing, so I worked on testing the\n" +
+    "          <strong>UX</strong> and designing the look and feel, to make it better\n" +
+    "          for the end user.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://anz.com.au\" target=\"_blank\"\n" +
+    "          ><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"ANZ\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://anz.com.au\" target=\"_blank\"\n" +
+    "            >ANZ - Know Your Customer</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Here I worked with 5 Front End Engineers to build internal banking\n" +
+    "          sofware, enabling staff to add and edit new customers. The software\n" +
+    "          was built using <strong>Angular</strong> and\n" +
+    "          <strong>Webpack</strong> on a <strong>JAVA</strong> platform.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The software was internal and limited to\n" +
+    "          <strong>working on IE8</strong>, which meant we spent a lot of time\n" +
+    "          handling performance issues and working with the\n" +
+    "          <strong>JS profiler</strong> and <strong>flame graph</strong> to speed\n" +
+    "          up the site.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\"\n" +
+    "            alt=\"Quote Wall\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a\n" +
+    "            href=\"https://github.com/pauldcollins/es6-quote-wall\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >Quote Wall</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          <strong>Fun project:</strong> A wall of quotes. Basic\n" +
+    "          <strong>MVC</strong> pattern, built using\n" +
+    "          <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>.\n" +
+    "          Just barebones Javascript, with a little help from JQuery for\n" +
+    "          animation.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://app.outreached.com.au/\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndOutreached.jpg\"\n" +
+    "            alt=\"Quote Wall\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://app.outreached.com.au/\" target=\"_blank\">Outreached</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          For a new startup, I built a working prototype for a social media\n" +
+    "          campaign manager. We used the\n" +
+    "          <a\n" +
+    "            href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\"\n" +
+    "            >Homer theme</a\n" +
+    "          >\n" +
+    "          so we could set up quickly and build out components fast. I did the\n" +
+    "          <strong>UX Design</strong> and customised the theme using\n" +
+    "          <strong>Angular, CSS, HTML, Bootstrap</strong>. It was Optimised for\n" +
+    "          iPad and web.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          We were working to a tight deadline and it was getting tested by a\n" +
+    "          client as we built, so I could\n" +
+    "          <strong>get instant feedback and push changes straight away</strong>.\n" +
+    "          On this project I learned the importance of not always being fussy\n" +
+    "          about code in the interest of iterating quickly!\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://stopphubbing.com/\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\"\n" +
+    "            alt=\"Stop Phubbing\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://stopphubbing.com/\" target=\"_blank\">Stop Phubbing</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Stop Phubbing was a fun project I took over and completed as the sole\n" +
+    "          Front End Dev. The idea was to bring awareness to \"the act of snubbing\n" +
+    "          someone in a social setting by looking at your phone instead of paying\n" +
+    "          attention\".\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          I built the site animation using a combination of\n" +
+    "          <strong>JQuery, CSS and HTML5</strong>.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a\n" +
+    "          href=\"http://www.commotioncreative.com.au/master-your-myki/\"\n" +
+    "          target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndMyki.jpg\"\n" +
+    "            alt=\"Master Your Myki\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a\n" +
+    "            href=\"http://www.commotioncreative.com.au/master-your-myki/\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >Master Your Myki</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          <strong>Mobile first</strong> website designed to help people on the\n" +
+    "          go master Melbourne's complex transport system! I was the sole\n" +
+    "          developer, building the responsive site using\n" +
+    "          <strong>HMTL, JAVA, CSS</strong> and <strong>Google Maps</strong>.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The site needed to be performant on mobile, so I setup\n" +
+    "          <strong>CSS Sprites</strong> and build tools to optimise all files.\n" +
+    "          (This was before service workers were an option).\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          There was a tight deadline of <strong>2 weeks</strong>, but along with\n" +
+    "          the <strong>designer</strong> and <strong>project manager</strong>, we\n" +
+    "          had the site built, tested and live in time for the advertising\n" +
+    "          campaign.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
-    "<!--FRONT END DEVELOPMENT-->\n" +
-    "	<section id=\"front-end-development\" class=\"title-area\">\n" +
-    "		<div class=\"container column text\">\n" +
-    "			<h1>Front End Development</h1>\n" +
-    "		</div>\n" +
-    "	</section>\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"https://altvr.com\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\" alt=\"Altspace VR\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://nab.com.au\" target=\"_blank\">Altspace VR</a></h2>\n" +
-    "				<p>This is a prototype I designed and built for the admin section of a Virtual Reality App. It's built using \n" +
-    "				<strong>ReactJS, HTML</strong> &amp; <strong>CSS</strong></p>\n" +
-    "				<p>The old design needed rehashing, so I worked on testing the <strong>UX</strong> and designing the look and feel, to make it better for the end user.</p>\n" +
-    "			</div>\n" +
-    "		</div>\n" +
-    "	</section>	\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://nab.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndNAB.jpg\" alt=\"NAB Internet Banking\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://nab.com.au\" target=\"_blank\">NAB Internet Banking</a></h2>\n" +
-    "				<p>Here I worked on one of four Agile squads to completely rebuild NAB's Internet Banking website. The site was built using <strong>Angular, Redux, Bootstrap &amp; Webpack</strong>.</p>\n" +
-    "				<p>Meeting accessibility was a challenge for both the testing and development teams when I arrived. I took the lead and trained other developers on <strong>HTML/CSS standards</strong> and <strong>Accessibility</strong>.\n" +
-    "				I also implemented an Accesibility testing framework - <strong>Axe Core</strong>, across the project, to ensure we were meeting requirements even after I moved on.</p>\n" +
-    "			</div>\n" +
-    "		</div>\n" +
-    "	</section>			\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"ANZ\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://anz.com.au\" target=\"_blank\">ANZ - Know Your Customer</a></h2>\n" +
-    "				<p>Here I worked with 5 Front End Engineers to build internal banking sofware, enabling staff to add and edit new customers. The software was built using <strong>Angular</strong> and <strong>Webpack</strong> on a <strong>JAVA</strong> platform.</p>\n" +
-    "				<p>The software was internal and limited to <strong>working on IE8</strong>, which meant we spent a lot of time handling performance issues and working with the <strong>JS profiler</strong> and <strong>flame graph</strong> to speed up the site.</p>\n" +
-    "			</div>\n" +
-    "		</div>\n" +
-    "	</section>			\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\">Quote Wall</a></h2>\n" +
-    "				<p><strong>Fun project:</strong> A wall of quotes. Basic <strong>MVC</strong> pattern, built using <strong>ES6 classes</strong> and some <strong>Flexbox CSS</strong>. Just barebones Javascript, with a little help from JQuery for animation.</p>\n" +
-    "			</div>			\n" +
-    "		</div>\n" +
-    "	</section>			\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">						\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://app.outreached.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndOutreached.jpg\" alt=\"Quote Wall\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://app.outreached.com.au/\" target=\"_blank\">Outreached</a></h2>\n" +
-    "				<p>For a new startup, I built a working prototype for a social media campaign manager. We used the <a href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\">Homer theme</a> so we could set up quickly and build out components fast. I did the <strong>UX Design</strong> and customised the theme using <strong>Angular, CSS, HTML, Bootstrap</strong>. It was Optimised for iPad and web.</p>\n" +
-    "				<p>We were working to a tight deadline and it was getting tested by a client as we built, so I could <strong>get instant feedback and push changes straight away</strong>. On this project I learned the importance of not always being fussy about code in the interest of iterating quickly!</p>\n" +
-    "			</div>			\n" +
-    "		</div>\n" +
-    "	</section>		\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://stopphubbing.com/\" target=\"_blank\">Stop Phubbing</a></h2>\n" +
-    "				<p>Stop Phubbing was a fun project I took over and completed as the sole Front End Dev. The idea was to bring awareness to \"the act of snubbing someone in a social setting by looking at your phone instead of paying attention\".</p>\n" +
-    "				<p>I built the site animation using a combination of <strong>JQuery, CSS and HTML5</strong>.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>		\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://www.medibank.com.au/about/investor-centre\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMedibankInvestor.jpg\" alt=\"Medibank\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about/investor-centre\" target=\"_blank\">Medibank - Investor Centre</a></h2>\n" +
-    "				<p>Here I was also the lead Front End Developer for the newly floated Medibank investor centre site, built on a <strong>Java/Adobe CQ5 Platform</strong>.</p>\n" +
-    "				<p>The responsive front end was also built using components I created for the style guide, which we again integrated into <strong>CQ5 templates</strong>.</p>\n" +
-    "				<p>The site used <strong>Iguana</strong> to bring in all the ASX share information and I worked with their team to customise how the data was presented.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMyki.jpg\" alt=\"Master Your Myki\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\">Master Your Myki</a></h2>\n" +
-    "				<p><strong>Mobile first</strong> website designed to help people on the go master Melbourne's complex transport system! I was the sole developer, building the responsive site using <strong>HMTL, JAVA, CSS</strong> and <strong>Google Maps</strong>.</p>\n" +
-    "				<p>The site needed to be performant on mobile, so I setup <strong>CSS Sprites</strong> and build tools to optimise all files. (This was before service workers were an option).</p>\n" +
-    "				<p>There was a tight deadline of <strong>2 weeks</strong>, but along with the <strong>designer</strong> and <strong>project manager</strong>, we had the site built, tested and live in time for the advertising campaign.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>	\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://www.medibank.com.au/healthcover/health-cover-health-check.aspx\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMedibankHealthCheck.jpg\" alt=\"Medibank\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/healthcover/health-cover-health-check.aspx\" target=\"_blank\">Medibank - Health Cover Health Check</a></h2>\n" +
-    "				<p>This was a single page app I built for potential customers to weigh up their current health plans against a Medibank one.</p>\n" +
-    "				<p>I built the app using a combination of <strong>JQuery, CSS and HTML5</strong>. The backend was a <strong>.NET</strong> environment and I worked with the developers to integrate the page.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>	\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndWilsonStorage.jpg\" alt=\"Wilson Storage\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"https://wilsonstorage.com.au/\" target=\"_blank\">Wilson Storage</a></h2>\n" +
-    "				<p>This was a <strong>Wordpress</strong> project I took over and completed as lead developer.</p>\n" +
-    "				<p>I built the app using <strong>Jquery, CSS and HTML5</strong> and integrated various plugins for Wordpress.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>		\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndWilsonStorage.jpg\"\n" +
+    "            alt=\"Wilson Storage\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"\n" +
+    "            >Wilson Storage</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          This was a <strong>Wordpress</strong> project I took over and\n" +
+    "          completed as lead developer.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          I built the app using <strong>Jquery, CSS and HTML5</strong> and\n" +
+    "          integrated various plugins for Wordpress.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
+    "  <!--UX DESIGN-->\n" +
+    "  <section id=\"ux-design\" class=\"title-area\">\n" +
+    "    <div class=\"container column text\">\n" +
+    "      <h1>UX & Virtual Reality Design</h1>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--intro-->\n" +
+    "  <section class=\"intro\">\n" +
+    "    <p>\n" +
+    "      In 2017, I did a 12 week course in VR Design. The course covered the\n" +
+    "      fundamentals of VR Design and we built a project using Unity which we\n" +
+    "      presented to a tech meetup at the end of the 12 weeks.\n" +
+    "    </p>\n" +
+    "    <p>\n" +
+    "      I am currently working on a VR Meditation app with my classmate. It's\n" +
+    "      built using Unity.\n" +
+    "    </p>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a\n" +
+    "          href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
+    "          target=\"_blank\"\n" +
+    "          title=\"PDF Link\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/ux-design/craft-fare-image.jpg\"\n" +
+    "            alt=\"Craft Fare\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a\n" +
+    "            href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
+    "            target=\"_blank\"\n" +
+    "            title=\"PDF Link\"\n" +
+    "            >Case study - Craft fare</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Starting Feb 2015, I studied course in UX Design at\n" +
+    "          <a href=\"https://generalassemb.ly/melbourne\" target=\"_blank\"\n" +
+    "            >General Assembly</a\n" +
+    "          >\n" +
+    "          for 12 weeks. I created an app called <strong>\"Craft Fare\"</strong>,\n" +
+    "          which people could use to match beer and food. As part of the course,\n" +
+    "          I applied a range of UX principles to my project, resulting in a final\n" +
+    "          document of work.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          <a\n" +
+    "            href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
+    "            target=\"_blank\"\n" +
+    "            title=\"PDF Link\"\n" +
+    "            >Click here to view my presentation</a\n" +
+    "          >\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
-    "<!--UX DESIGN-->\n" +
-    "	<section id=\"ux-design\" class=\"title-area\">\n" +
-    "		<div class=\"container column text\">\n" +
-    "			<h1>UX Design</h1>\n" +
-    "		</div>\n" +
-    "	</section>\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\"><img src=\"assets/images/ux-design/craft-fare-image.jpg\" alt=\"Craft Fare\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Case study - Craft fare</a></h2>\n" +
-    "				<p>Starting Feb 2015, I studied course in UX Design at <a href=\"https://generalassemb.ly/melbourne\" target=\"_blank\">General Assembly</a> for 12 weeks. I created an app called <strong>\"Craft Fare\"</strong>, which people could use to match beer and food. As part of the course, I applied a range of UX principles to my project, resulting in a final document of work.</p>\n" +
-    "				<p><a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Click here to view my presentation</a></p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>\n" +
+    "  <!--ACCESSIBILITY-->\n" +
+    "  <section id=\"accessibility\" class=\"title-area\">\n" +
+    "    <div class=\"container column text\"><h1>Accessibility</h1></div>\n" +
+    "  </section>\n" +
+    "  <!--intro-->\n" +
+    "  <section class=\"intro\">\n" +
+    "    <p>\n" +
+    "      In my second web role, way back in 2003, (yes that long ago!), I ran our\n" +
+    "      site through the\n" +
+    "      <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\"\n" +
+    "        >Bobby validator</a\n" +
+    "      >\n" +
+    "      and <a href=\"https://validator.w3.org/\" target=\"_blank\">W3C Validator</a>,\n" +
+    "      quickly learning that our site didn't comply with basic coding standards,\n" +
+    "      <strong>let alone was it accessible</strong>. I convinced my boss to send\n" +
+    "      me on an accessibility training course, achieved my certificate, then\n" +
+    "      <strong>trained our team of 40 plus staff</strong>, including front and\n" +
+    "      back end developers, project managers and the like.\n" +
+    "    </p>\n" +
+    "    <p>\n" +
+    "      I've since always tried to advocate for accessibility in my projects and\n" +
+    "      worked on sites that are both <strong>AA and AAA compliant</strong>. More\n" +
+    "      recently, I've begun to teach accessibility and present at meetups.\n" +
+    "    </p>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://nab.com.au\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndNAB.jpg\"\n" +
+    "            alt=\"NAB Internet Banking\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://nab.com.au\" target=\"_blank\">NAB Internet Banking</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Here I worked on one of four Agile squads to completely rebuild NAB's\n" +
+    "          Internet Banking website. The site was built using\n" +
+    "          <strong>Angular, Redux, Bootstrap &amp; Webpack</strong>.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          Meeting accessibility was a challenge for both the testing and\n" +
+    "          development teams when I arrived. I took the lead and trained other\n" +
+    "          developers on <strong>HTML/CSS standards</strong> and\n" +
+    "          <strong>Accessibility</strong>, working as a bridge between the\n" +
+    "          Accessibility testing team and the 5 front end dev squads. I ran\n" +
+    "          workshops on Accessibility and also implemented an Accesibility\n" +
+    "          testing framework - <strong>Axe Core</strong>, across the project, to\n" +
+    "          ensure we were meeting requirements even after I moved on.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a\n" +
+    "          href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
+    "          target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/accessibility/rnid.jpg\"\n" +
+    "            alt=\"Action on Hearing Loss website\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a\n" +
+    "            href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >Action on hearing loss</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          I worked for 8 months on the previous website for the\n" +
+    "          <strong>Royal National Institute for the Deaf</strong>, now known as\n" +
+    "          <strong>Action on Hearing Loss</strong>. The site needed to be AAA\n" +
+    "          compliant for it's audience.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          We worked hard to make sure the site was accessible to all. On top of\n" +
+    "          the AA accessibility requirements, we also added video captioning,\n" +
+    "          sign language interpretation and regularly user tested as we\n" +
+    "          progressed. I was proud of the end product and the\n" +
+    "          <acronym title=\"Royal National Institute for the Deaf\">RNID</acronym>\n" +
+    "          received critical acclaim for the site.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          <a\n" +
+    "            href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >Click here to view the Action Hearing Loss website</a\n" +
+    "          >\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://www.medibank.com.au/about\" target=\"_blank\"\n" +
+    "          ><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\"\n" +
+    "            alt=\"Medibank\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://www.medibank.com.au/about\" target=\"_blank\"\n" +
+    "            >Medibank - About Us</a\n" +
+    "          >\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          Here I was the lead Front End Developer for the first section released\n" +
+    "          on Medibank's new <strong>Java/Adobe CQ5 Platform</strong>.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The site was built to be AA compliant with a responsive front end. I\n" +
+    "          created new, reusable components for the style guide that conformed to\n" +
+    "          a <strong>AA rating for WCAG 2.0</strong>. We collaborated in an Agile\n" +
+    "          team using JIRA &amp; Stash.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
+    "  <!--TEACHING, TALKS, PUBLICATIONS-->\n" +
+    "  <section id=\"teachings\" class=\"title-area\">\n" +
+    "    <div class=\"container column text\">\n" +
+    "      <h1>Teaching, Talks, Publications</h1>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--intro-->\n" +
+    "  <section>\n" +
+    "    <div class=\"col-md-6\">\n" +
+    "      <h2>Teaching</h2>\n" +
+    "      <dl>\n" +
+    "        <dt>\"Introduction to Web Accessibility\"</dt>\n" +
+    "        <dd>\n" +
+    "          3 Hour workshop at General Assembly Melbourne.<br />Taught on March\n" +
+    "          and July 2016<br />\n" +
+    "          <a target=\"_blank\" href=\"http://ga.co/1oDoDTZ\"\n" +
+    "            >View introduction to accessibility course</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "      </dl>\n" +
     "\n" +
-    "<!--ACCESSIBILITY-->\n" +
-    "	<section id=\"accessibility\" class=\"title-area\">\n" +
-    "		<div class=\"container column text\">\n" +
-    "			<h1>Accessibility</h1>\n" +
-    "		</div>\n" +
-    "	</section>\n" +
-    "<!--intro-->\n" +
-    "	<section class=\"intro\">\n" +
-    "		<p>\n" +
-    "			In my second web role, way back in 2003, (yes that long ago!), I ran our site through the <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\">Bobby validator</a> and <a href=\"https://validator.w3.org/\" target=\"_blank\">W3C Validator</a>, quickly learning that our site didn't comply with basic coding standards, <strong>let alone was it accessible</strong>. I convinced my boss to send me on an accessibility training course, achieved my certificate, then <strong>trained our team of 40 plus staff</strong>, including front and back end developers, project managers and the like.\n" +
-    "		</p>\n" +
-    "		<p>\n" +
-    "			I've since always tried to advocate for accessibility in my projects and worked on sites that are both <strong>AA and AAA compliant</strong>. More recently, I've begun to teach accessibility and present at meetups.\n" +
-    "		</p>\n" +
-    "	</section>\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\"><img src=\"assets/images/accessibility/rnid.jpg\" alt=\"Action on Hearing Loss website\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Action on hearing loss</a></h2>\n" +
-    "				<p>I worked for 8 months on the previous website for the <strong>Royal National Institute for the Deaf</strong>, now known as <strong>Action on Hearing Loss</strong>. The site needed to be AAA compliant for it's audience.</p>\n" +
-    "				<p>We worked hard to make sure the site was accessible to all. On top of the AA accessibility requirements, we also added video captioning, sign language interpretation and regularly user tested as we progressed. I was proud of the end product and the <acronym title=\"Royal National Institute for the Deaf\">RNID</acronym> received critical acclaim for the site.</p>\n" +
-    "				<p><a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Click here to view the Action Hearing Loss website</a></p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>\n" +
-    "<!--project-->\n" +
-    "	<section class=\"image left-image\">	\n" +
-    "		<div class=\"container\">				\n" +
-    "			<p class=\"col-md-3 image\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\" alt=\"Medibank\"></a></p>			\n" +
-    "			<div class=\"col-md-9 text-area\">\n" +
-    "				<h2 class=\"mainTitle\"><a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Medibank - About Us</a></h2>\n" +
-    "				<p>Here I was the lead Front End Developer for the first section released on Medibank's new <strong>Java/Adobe CQ5 Platform</strong>.</p>\n" +
-    "				<p>The site was built to be AA compliant with a responsive front end. I created new, reusable components for the style guide that conformed to a <strong>AA rating for WCAG 2.0</strong>. We collaborated in an Agile team using JIRA &amp; Stash.</p>\n" +
-    "			</div>			\n" +
-    "		</div>				\n" +
-    "	</section>\n" +
+    "      <h2>Publications</h2>\n" +
+    "      <dl>\n" +
+    "        <dt>\"9 Ways Facebook Can Improve Accessibility\"</dt>\n" +
+    "        <dd>\n" +
+    "          <a\n" +
+    "            target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/9-ways-facebook-can-improve-accessibility-aa193ee7591a#.v5kq62ggo\"\n" +
+    "            >Read article: 9 ways Facebook can improve accessibility</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "        <dt>\"5 Awesome Things Facebook is Doing for Accessibility\"</dt>\n" +
+    "        <dd>\n" +
+    "          <a\n" +
+    "            target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/5-awesome-things-facebook-is-doing-for-accessibility-d329e390c6b4\"\n" +
+    "            >Read article: 5 Awesome Things Facebook is Doing for\n" +
+    "            Accessibility</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "        <dt>\n" +
+    "          \"WAI-ARIA Compliant, Accessibile Form Validation: How To Do It Simple\n" +
+    "          and Well\"\n" +
+    "        </dt>\n" +
+    "        <dd>\n" +
+    "          <a\n" +
+    "            target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/wai-aria-compliant-accessibile-form-validation-how-to-do-it-simple-and-well-d07e5917b048\"\n" +
+    "            >WAI-ARIA Compliant, Accessibile Form Validation: How To Do It\n" +
+    "            Simple and Well</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "        <dt>\"5 Ways Virtual Reality will be great for accessibility\"</dt>\n" +
+    "        <dd>\n" +
+    "          <a\n" +
+    "            target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/5-ways-virtual-reality-will-be-great-for-accessibility-74c49a9adf57\"\n" +
+    "            >5 Ways Virtual Reality will be great for accessibility.</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "      </dl>\n" +
+    "    </div>\n" +
     "\n" +
-    "\n" +
-    "<!--TEACHING, TALKS, PUBLICATIONS-->\n" +
-    "	<section id=\"teachings\" class=\"title-area\">\n" +
-    "		<div class=\"container column text\">\n" +
-    "			<h1>Teaching, Talks, Publications</h1>\n" +
-    "		</div>\n" +
-    "	</section>\n" +
-    "<!--intro-->\n" +
-    "	<section>\n" +
-    "		<div class=\"col-md-6\">\n" +
-    "			<h2>Teaching</h2>\n" +
-    "			<dl>\n" +
-    "				<dt>\"Introduction to Web Accessibility\"</dt>\n" +
-    "				<dd>\n" +
-    "					3 Hour workshop at General Assembly Melbourne.<br>Taught on March and July 2016<br>\n" +
-    "					<a target=\"_blank\" href=\"http://ga.co/1oDoDTZ\">View introduction to accessibility course</a>\n" +
-    "				</dd>\n" +
-    "			</dl>\n" +
-    "\n" +
-    "			<h2>Publications</h2>\n" +
-    "			<dl>\n" +
-    "				<dt>\"9 Ways Facebook Can Improve Accessibility\"</dt>\n" +
-    "				<dd>					\n" +
-    "					<a target=\"_blank\" href=\"https://medium.com/@pcollins/9-ways-facebook-can-improve-accessibility-aa193ee7591a#.v5kq62ggo\">Read article: 9 ways Facebook can improve accessibility</a>\n" +
-    "				</dd>\n" +
-    "				<dt>\"5 Awesome Things Facebook is Doing for Accessibility\"</dt>\n" +
-    "				<dd>					\n" +
-    "					<a target=\"_blank\" href=\"https://medium.com/@pcollins/5-awesome-things-facebook-is-doing-for-accessibility-d329e390c6b4\">Read article: 5 Awesome Things Facebook is Doing for Accessibility</a>\n" +
-    "				</dd>				\n" +
-    "			</dl>			\n" +
-    "		</div>\n" +
-    "\n" +
-    "		<div class=\"col-md-6\">\n" +
-    "			<h2>Presentations</h2>\n" +
-    "			<dl>\n" +
-    "				<dt>\"Accessibility Testing Tools\"</dt>\n" +
-    "				<dd>\n" +
-    "					A11y Bytes, May 2016<br>\n" +
-    "					<a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\">View A11y Bytes website</a><br>\n" +
-    "					<a href=\"http://pauldcollins.github.io/assets/presentations/a11yBytes/\" target=\"_blank\">View accessibility testing tools presentation</a>\n" +
-    "				</dd>\n" +
-    "				<dt>\"Using ARIA in depth\"</dt>\n" +
-    "				<dd>\n" +
-    "					Odecee Brownbag, March 2016<br>\n" +
-    "					<a href=\"assets/images/teaching/Web-Accessibility-Paul-Collins.pdf\" target=\"_blank\">View using ARIA in depth presentation (PDF)</a>\n" +
-    "				</dd>\n" +
-    "			</dl>\n" +
-    "		</div>\n" +
-    "		<div class=\"clear\"></div>\n" +
-    "	</section>");
+    "    <div class=\"col-md-6\">\n" +
+    "      <h2>Presentations</h2>\n" +
+    "      <dl>\n" +
+    "        <dt>\"Accessibility Testing Tools\"</dt>\n" +
+    "        <dd>\n" +
+    "          A11y Bytes, May 2016<br />\n" +
+    "          <a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\"\n" +
+    "            >View A11y Bytes website</a\n" +
+    "          ><br />\n" +
+    "          <a\n" +
+    "            href=\"http://pauldcollins.github.io/assets/presentations/a11yBytes/\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >View accessibility testing tools presentation</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "        <dt>\"Using ARIA in depth\"</dt>\n" +
+    "        <dd>\n" +
+    "          Odecee Brownbag, March 2016<br />\n" +
+    "          <a\n" +
+    "            href=\"assets/images/teaching/Web-Accessibility-Paul-Collins.pdf\"\n" +
+    "            target=\"_blank\"\n" +
+    "            >View using ARIA in depth presentation (PDF)</a\n" +
+    "          >\n" +
+    "        </dd>\n" +
+    "      </dl>\n" +
+    "    </div>\n" +
+    "    <div class=\"clear\"></div>\n" +
+    "  </section>\n" +
+    "</div>\n" +
+    "");
 }]);
