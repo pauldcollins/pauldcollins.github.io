@@ -290,20 +290,23 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          <a href=\"https://good.work/\" target=\"_blank\">goodwork</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          Here I am working with small team to build a React Native Mobile\n" +
-    "          project. We launched earlier in 2018 and gained 7000 users in 6\n" +
-    "          months.\n" +
+    "          Here I am working with small team to build a\n" +
+    "          <strong>React Native</strong> Mobile project. We launched earlier in\n" +
+    "          2018 and gained <strong>7000 users in 6 months</strong>.\n" +
     "        </p>\n" +
     "        <p>\n" +
     "          My role is heavily product focused and I work closely with Design and\n" +
-    "          UX to analyse data, do user research, build prototypes, then finally\n" +
-    "          build out the components and features that our members want!\n" +
+    "          UX to\n" +
+    "          <strong>analyse data, do user research, build prototypes</strong>,\n" +
+    "          then finally build out the components and features that\n" +
+    "          <strong>our members want</strong>!\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          The site is built using React Native, Redux and Node JS for the\n" +
-    "          backend. Challenges overcome have included learning mobile app\n" +
-    "          development and getting to know our customers well enough to be able\n" +
-    "          to support their needs.\n" +
+    "          The site is built using\n" +
+    "          <strong>React Native, Redux and Node JS</strong> for the backend.\n" +
+    "          Challenges overcome have included learning mobile app development and\n" +
+    "          getting to know our customers well enough\n" +
+    "          <strong>to be able to support their needs</strong>.\n" +
     "        </p>\n" +
     "      </div>\n" +
     "    </div>\n" +
@@ -325,16 +328,18 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          >\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          This was a custom map site I built for the navigation startup\n" +
-    "          What3words.\n" +
+    "          This was a custom map site I built as an\n" +
+    "          <strong>Interactive Web Developer</strong> for the navigation startup\n" +
+    "          <strong>What3words</strong>.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          React app using a Storybook library of components. Worked closely with\n" +
-    "          the Design team to create the components, design interactions and\n" +
-    "          animations. Challenges included detailed integration of several map\n" +
-    "          APIs, including Google Maps, Esri and Mapbox and laying the What3Words\n" +
-    "          grid and pin over them. The site and components were made to be\n" +
-    "          responsive on all devices.\n" +
+    "          <strong>React app using a Storybook library of components</strong>.\n" +
+    "          Worked closely with the Design team to create the components, design\n" +
+    "          interactions and animations. Challenges included detailed integration\n" +
+    "          of several map APIs, including\n" +
+    "          <strong>Google Maps, Esri and Mapbox</strong> and laying the\n" +
+    "          What3Words grid and pin over them. The site and components were made\n" +
+    "          to be responsive on all devices.\n" +
     "        </p>\n" +
     "      </div>\n" +
     "    </div>\n" +
@@ -566,13 +571,14 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <!--intro-->\n" +
     "  <section class=\"intro\">\n" +
     "    <p>\n" +
-    "      In 2017, I did a 12 week course in VR Design. The course covered the\n" +
-    "      fundamentals of VR Design and we built a project using Unity which we\n" +
-    "      presented to a tech meetup at the end of the 12 weeks.\n" +
+    "      In 2017, I did a 12 week course in <strong>VR Design</strong>. The course\n" +
+    "      covered the <strong>fundamentals of VR Design</strong> and we built a\n" +
+    "      project using Unity which we presented to a tech meetup at the end of the\n" +
+    "      12 weeks.\n" +
     "    </p>\n" +
     "    <p>\n" +
-    "      I am currently working on a VR Meditation app with my classmate. It's\n" +
-    "      built using Unity.\n" +
+    "      I am currently working on a <strong>VR Meditation app</strong> with my\n" +
+    "      classmate. It's built using Unity.\n" +
     "    </p>\n" +
     "  </section>\n" +
     "  <!--project-->\n" +
