@@ -282,7 +282,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
     "        <a href=\"https://coles.com.au\" target=\"_blank\"\n" +
-    "          ><img src=\"assets/images/frontEnd/frontEndColes.png\" alt=\"Coles\"\n" +
+    "          ><img src=\"assets/images/frontEnd/frontEndColes.jpg\" alt=\"Coles\"\n" +
     "        /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
@@ -290,7 +290,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          <a href=\"https://coles.com.au\" target=\"_blank\">Coles</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          At Coles I worked as a UI Consultant, assisting multiple teams in\n" +
+    "          At Coles I worked as a UI Consultant, assisting multiple teams to\n" +
     "          improve the UX and UI quality of their apps. This involved me working closely\n" +
     "          with both the <strong>Design and Development</strong> teams.\n" +
     "        </p>\n" +
@@ -301,11 +301,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          as well as designing and building new components, where none currently existed.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          Another large part of my role was curating User Experience across the platforms. This\n" +
+    "          Another large part of my role was managing <strong>User Experience</strong> across the platforms. This\n" +
     "          meant attending business meetings to gather requirements and building out Wireframes. It\n" +
-    "          also involved me creating UX/UI documentation and training the devs on Front End coding standards.\n" +
+    "          also involved me creating <strong>UX/UI documentation</strong> and training the devs on\n" +
+    "          <strong>Front End coding standards</strong>.\n" +
     "        </p>\n" +
-    "        <p>My role was also to audit the apps for Accessibility and fix any code defects.</p>\n" +
+    "        <p>My role also involved auditing the apps for Accessibility and fixing any code defects.</p>\n" +
     "      </div>\n" +
     "    </div>\n" +
     "  </section>\n" +
