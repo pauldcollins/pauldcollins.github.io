@@ -281,6 +281,38 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://coles.com.au\" target=\"_blank\"\n" +
+    "          ><img src=\"assets/images/frontEnd/frontEndColes.png\" alt=\"Coles\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://coles.com.au\" target=\"_blank\">Coles</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          At Coles I worked as a UI Consultant, assisting multiple teams in\n" +
+    "          improve the UX and UI quality of their apps. This involved me working closely\n" +
+    "          with both the <strong>Design and Development</strong> teams.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          My role was to assist implementing the Coles Style Guide into an\n" +
+    "          <strong>Oracle APEX app</strong>. This required refactoring of existing\n" +
+    "          Oracle components using <strong>CSS, HTML</strong> and <strong>Javascript</strong>,\n" +
+    "          as well as designing and building new components, where none currently existed.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          Another large part of my role was curating User Experience across the platforms. This\n" +
+    "          meant attending business meetings to gather requirements and building out Wireframes. It\n" +
+    "          also involved me creating UX/UI documentation and training the devs on Front End coding standards.\n" +
+    "        </p>\n" +
+    "        <p>My role was also to audit the apps for Accessibility and fix any code defects.</p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
     "        <a href=\"https://good.work/\" target=\"_blank\"\n" +
     "          ><img src=\"assets/images/frontEnd/frontEndGoodwork.jpg\" alt=\"Goodwork\"\n" +
     "        /></a>\n" +
@@ -290,16 +322,16 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          <a href=\"https://good.work/\" target=\"_blank\">goodwork</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          Here I am working with small team to build a\n" +
-    "          <strong>React Native</strong> Mobile project. We launched earlier in\n" +
-    "          2018 and gained <strong>7000 users in 6 months</strong>.\n" +
+    "          At goodwork, I am worked with small team to build a\n" +
+    "          <strong>React Native</strong> Mobile project. We launched early in\n" +
+    "          2018 and gained <strong>20,000 users in 6 months</strong>.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          My role is heavily product focused and I work closely with Design and\n" +
+    "          My role was heavily product focused and I worked closely with Design and\n" +
     "          UX to\n" +
     "          <strong>analyse data, do user research, build prototypes</strong>,\n" +
     "          then finally build out the components and features that\n" +
-    "          <strong>our members want</strong>!\n" +
+    "          <strong>our members wanted</strong>!\n" +
     "        </p>\n" +
     "        <p>\n" +
     "          The site is built using\n" +
