@@ -290,7 +290,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          <a href=\"https://coles.com.au\" target=\"_blank\">Coles</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          At Coles I worked as a UI Consultant, assisting multiple teams to\n" +
+    "          At Coles I worked as a <strong>UI Consultant</strong>, assisting multiple teams to\n" +
     "          improve the UX and UI quality of their apps. This involved me working closely\n" +
     "          with both the <strong>Design and Development</strong> teams.\n" +
     "        </p>\n" +
