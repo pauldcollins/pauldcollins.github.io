@@ -281,6 +281,37 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\" target=\"_blank\"\n" +
+    "          ><img src=\"assets/images/frontEnd/frontEndNAB-Payments.png\" alt=\"NAB Easy Tap\"\n" +
+    "        /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\" target=\"_blank\">NAB Easy Tap</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          For this project at NAB, I worked as a <strong>Senior Front End Engineer</strong>,\n" +
+    "          creating withing an Agile team and building a new app to support their <strong>Easy Tap</strong> payment product.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          My main role was to assist setting up the project from scratch, whilst using the existing NABX Framework.\n" +
+    "          This included all the <strong>build and testing</strong> tools, such as Jenkins and SonarQube. I also helped\n" +
+    "          integrate the existing NAB Mini App technology. After this we built and released an MVP of the app which we\n" +
+    "          could begin to build out new features for. All work was done using using <strong>React, Recoil (State Management),\n" +
+    "          CSS Modules, Apollo</strong> and <strong>GraphQL</strong>. We also setup a <strong>BFF</strong> for the project.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          Other parts of my role involved auditing the apps for <strong>Accessibility</strong> and fixing any code defects.\n" +
+    "          I also made contributions to the <strong>NAB Design System</strong> and worked closely with the Design and Accessibility\n" +
+    "          testing teams to fix issues.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "  <!--project-->\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
     "        <a href=\"https://coles.com.au\" target=\"_blank\"\n" +
     "          ><img src=\"assets/images/frontEnd/frontEndColes.jpg\" alt=\"Coles\"\n" +
     "        /></a>\n" +
