@@ -5786,13 +5786,13 @@ button.close {
  * definitions in our imported stylesheets.
  */
 /**
- * These are the variables used throughout the application. This is where
+ * These are the variables used throughout the application. This is where 
  * overwrites that are not specific to components should be maintained.
  */
 /**
  * Typography-related.
  */
-/**
+/** 
 * Colours
 **/
 *,
@@ -6395,14 +6395,14 @@ footer .social li a:visited:hover {
 }
 /**
  * Now that all app-wide styles have been applied, we can load the styles for
- * all the submodules and components we are using.
+ * all the submodules and components we are using. 
  *
  * TODO: In a later version of this boilerplate, I'd like to automate this.
  */
 .jumbotron {
   margin: 0;
   text-align: center;
-  background: #d70e07;
+  background: url(images/main-banner.jpg) center center / cover no-repeat;
   height: 100%;
 }
 @media (min-width: 1200px) {
