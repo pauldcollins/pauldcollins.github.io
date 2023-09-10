@@ -6438,6 +6438,11 @@ footer .social li a:visited:hover {
   font-size: 24px;
   line-height: 1.25;
 }
+.jumbotron .description {
+  margin: 20px auto;
+  padding: 0;
+  width: 60%;
+}
 .jumbotron ul.links {
   list-style: none;
   margin: 0 auto 12px;
