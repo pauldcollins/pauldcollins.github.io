@@ -6402,16 +6402,8 @@ footer .social li a:visited:hover {
 .jumbotron {
   margin: 0;
   text-align: center;
-  background: linear-gradient(to right, #eefc53, #78efc5);
+  background: url(images/main-banner.jpg) center center / cover no-repeat;
   height: 100%;
-}
-.jumbotron:before {
-  content: "";
-  display: block;
-  height: 100%;
-  background: linear-gradient(to right, #fd43cd, #4a44d7);
-  -webkit-mask: linear-gradient(to bottom, #000000 0, #000000);
-  mask: linear-gradient(to bottom, #000000 0, #000000);
 }
 @media (min-width: 1200px) {
   .jumbotron .navbar {
