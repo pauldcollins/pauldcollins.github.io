@@ -275,34 +275,93 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "<div class=\"section-container\">\n" +
     "  <!--FRONT END DEVELOPMENT-->\n" +
     "  <section id=\"front-end-development\" class=\"title-area\">\n" +
-    "    <div class=\"container column text\"><h1>Front End Development</h1></div>\n" +
+    "    <div class=\"container column text\">\n" +
+    "      <h1>Front End Development</h1>\n" +
+    "    </div>\n" +
     "  </section>\n" +
+    "\n" +
+    "\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://brandninja.ai/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndBrandNinja.png\"\n" +
+    "            alt=\"Brand Ninja AI\" /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://brandninja.ai/\" target=\"_blank\">Brand Ninja (AI)</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          For Brand Ninja, I worked as a <strong>Lead Mobile Engineer</strong>, building a fully functioning social\n" +
+    "          media app for iOS and Android in 8 weeks.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> backend, using\n" +
+    "          <strong>Apollo</strong>. My role was to take the\n" +
+    "          existing website and\n" +
+    "          create a mobile app, enabling users to see all their latest AI Social Media Posts, while on the go.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          Other parts of my role involved designing new pages and user flows that hadn't been created on the desktop\n" +
+    "          app.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"http://www.cyberfluent.com.au/\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndCyberfluent.png\" alt=\"Cyberfluent\" /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"http://www.cyberfluent.com.au/\" target=\"_blank\">Cyberfluent</a>\n" +
+    "        </h2>\n" +
+    "        <p>For Cyberfluent, I was a lead front end engineer, building a NextJS Front End for Cyber Security Training\n" +
+    "          software.</p>\n" +
+    "\n" +
+    "        <p>Cyberfluent is a startup where we are worked on a complex app that requires the following: <strong>Strapi\n" +
+    "            CMS, NextJS, Tailwind CSS, React, GraphQL</strong>. I'm lead the Front End setup and enjoyed working with a\n" +
+    "          great team to get the project up and running and built things fast, while maintaining quality. </p>\n" +
+    "\n" +
+    "        <p> On this project I also worked with: <strong>Amazon S3,</strong> <strong>Amazon EC2,</strong></p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "\n" +
     "  <!--project-->\n" +
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\" target=\"_blank\"\n" +
-    "          ><img src=\"assets/images/frontEnd/frontEndNAB-Payments.png\" alt=\"NAB Easy Tap\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\"\n" +
+    "          target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndNAB-Payments.png\" alt=\"NAB Easy Tap\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\" target=\"_blank\">NAB Easy Tap</a>\n" +
+    "          <a href=\"https://www.nab.com.au/business/payments-and-merchants/accepting-in-person-payments\"\n" +
+    "            target=\"_blank\">NAB Easy Tap</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          For this project at NAB, I worked as a <strong>Senior Front End Engineer</strong>,\n" +
-    "          creating withing an Agile team and building a new app to support their <strong>Easy Tap</strong> payment product.\n" +
+    "          creating withing an Agile team and building a new app to support their <strong>Easy Tap</strong> payment\n" +
+    "          product.\n" +
     "        </p>\n" +
     "        <p>\n" +
     "          My main role was to assist setting up the project from scratch, whilst using the existing NABX Framework.\n" +
     "          This included all the <strong>build and testing</strong> tools, such as Jenkins and SonarQube. I also helped\n" +
     "          integrate the existing NAB Mini App technology. After this we built and released an MVP of the app which we\n" +
-    "          could begin to build out new features for. All work was done using using <strong>React, Recoil (State Management),\n" +
-    "          CSS Modules, Apollo</strong> and <strong>GraphQL</strong>. We also setup a <strong>BFF</strong> for the project.\n" +
+    "          could begin to build out new features for. All work was done using using <strong>React, Recoil (State\n" +
+    "            Management),\n" +
+    "            CSS Modules, Apollo</strong> and <strong>GraphQL</strong>. We also setup a <strong>BFF</strong> for the\n" +
+    "          project.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          Other parts of my role involved auditing the apps for <strong>Accessibility</strong> and fixing any code defects.\n" +
-    "          I also made contributions to the <strong>NAB Design System</strong> and worked closely with the Design and Accessibility\n" +
+    "          Other parts of my role involved auditing the apps for <strong>Accessibility</strong> and fixing any code\n" +
+    "          defects.\n" +
+    "          I also made contributions to the <strong>NAB Design System</strong> and worked closely with the Design and\n" +
+    "          Accessibility\n" +
     "          testing teams to fix issues.\n" +
     "        </p>\n" +
     "      </div>\n" +
@@ -312,9 +371,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://coles.com.au\" target=\"_blank\"\n" +
-    "          ><img src=\"assets/images/frontEnd/frontEndColes.jpg\" alt=\"Coles\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://coles.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndColes.jpg\"\n" +
+    "            alt=\"Coles\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -345,9 +403,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://good.work/\" target=\"_blank\"\n" +
-    "          ><img src=\"assets/images/frontEnd/frontEndGoodwork.jpg\" alt=\"Goodwork\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://good.work/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndGoodwork.jpg\"\n" +
+    "            alt=\"Goodwork\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -379,17 +436,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://map.what3words.com\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndWhat3Words.jpg\"\n" +
-    "            alt=\"What3words\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://map.what3words.com\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndWhat3Words.jpg\"\n" +
+    "            alt=\"What3words\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"https://map.what3words.com\" target=\"_blank\"\n" +
-    "            >What3words Map Site</a\n" +
-    "          >\n" +
+    "          <a href=\"https://map.what3words.com\" target=\"_blank\">What3words Map Site</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          This was a custom map site I built as an\n" +
@@ -412,11 +464,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://altvr.com\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\"\n" +
-    "            alt=\"Altspace VR\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://altvr.com\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\"\n" +
+    "            alt=\"Altspace VR\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -440,15 +489,11 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://anz.com.au\" target=\"_blank\"\n" +
-    "          ><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"ANZ\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://anz.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndANZ.jpg\" alt=\"ANZ\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://anz.com.au\" target=\"_blank\"\n" +
-    "            >ANZ - Know Your Customer</a\n" +
-    "          >\n" +
+    "          <a href=\"http://anz.com.au\" target=\"_blank\">ANZ - Know Your Customer</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          Here I worked with 5 Front End Engineers to build internal banking\n" +
@@ -470,19 +515,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\"\n" +
-    "            alt=\"Quote Wall\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndQuoteWall.jpg\" alt=\"Quote Wall\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a\n" +
-    "            href=\"https://github.com/pauldcollins/es6-quote-wall\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >Quote Wall</a\n" +
-    "          >\n" +
+    "          <a href=\"https://github.com/pauldcollins/es6-quote-wall\" target=\"_blank\">Quote Wall</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          <strong>Fun project:</strong> A wall of quotes. Basic\n" +
@@ -498,11 +536,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://app.outreached.com.au/\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndOutreached.jpg\"\n" +
-    "            alt=\"Quote Wall\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://app.outreached.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndOutreached.jpg\"\n" +
+    "            alt=\"Quote Wall\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -511,10 +546,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        <p>\n" +
     "          For a new startup, I built a working prototype for a social media\n" +
     "          campaign manager. We used the\n" +
-    "          <a\n" +
-    "            href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\"\n" +
-    "            >Homer theme</a\n" +
-    "          >\n" +
+    "          <a href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\">Homer theme</a>\n" +
     "          so we could set up quickly and build out components fast. I did the\n" +
     "          <strong>UX Design</strong> and customised the theme using\n" +
     "          <strong>Angular, CSS, HTML, Bootstrap</strong>. It was Optimised for\n" +
@@ -534,11 +566,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://stopphubbing.com/\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\"\n" +
-    "            alt=\"Stop Phubbing\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\"\n" +
+    "            alt=\"Stop Phubbing\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -561,21 +590,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a\n" +
-    "          href=\"http://www.commotioncreative.com.au/master-your-myki/\"\n" +
-    "          target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndMyki.jpg\"\n" +
-    "            alt=\"Master Your Myki\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndMyki.jpg\" alt=\"Master Your Myki\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a\n" +
-    "            href=\"http://www.commotioncreative.com.au/master-your-myki/\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >Master Your Myki</a\n" +
-    "          >\n" +
+    "          <a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\">Master Your Myki</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          <strong>Mobile first</strong> website designed to help people on the\n" +
@@ -602,17 +622,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndWilsonStorage.jpg\"\n" +
-    "            alt=\"Wilson Storage\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndWilsonStorage.jpg\" alt=\"Wilson Storage\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\"\n" +
-    "            >Wilson Storage</a\n" +
-    "          >\n" +
+    "          <a href=\"https://wilsonstorage.com.au/\" target=\"_blank\">Wilson Storage</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          This was a <strong>Wordpress</strong> project I took over and\n" +
@@ -649,41 +664,25 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a\n" +
-    "          href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
-    "          target=\"_blank\"\n" +
-    "          title=\"PDF Link\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/ux-design/craft-fare-image.jpg\"\n" +
-    "            alt=\"Craft Fare\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\"><img\n" +
+    "            src=\"assets/images/ux-design/craft-fare-image.jpg\" alt=\"Craft Fare\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a\n" +
-    "            href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
-    "            target=\"_blank\"\n" +
-    "            title=\"PDF Link\"\n" +
-    "            >Case study - Craft fare</a\n" +
-    "          >\n" +
+    "          <a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Case study -\n" +
+    "            Craft fare</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          Starting Feb 2015, I studied course in UX Design at\n" +
-    "          <a href=\"https://generalassemb.ly/melbourne\" target=\"_blank\"\n" +
-    "            >General Assembly</a\n" +
-    "          >\n" +
+    "          <a href=\"https://generalassemb.ly/melbourne\" target=\"_blank\">General Assembly</a>\n" +
     "          for 12 weeks. I created an app called <strong>\"Craft Fare\"</strong>,\n" +
     "          which people could use to match beer and food. As part of the course,\n" +
     "          I applied a range of UX principles to my project, resulting in a final\n" +
     "          document of work.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          <a\n" +
-    "            href=\"assets/images/ux-design/craft-fare-presentation.pdf\"\n" +
-    "            target=\"_blank\"\n" +
-    "            title=\"PDF Link\"\n" +
-    "            >Click here to view my presentation</a\n" +
-    "          >\n" +
+    "          <a href=\"assets/images/ux-design/craft-fare-presentation.pdf\" target=\"_blank\" title=\"PDF Link\">Click here to\n" +
+    "            view my presentation</a>\n" +
     "        </p>\n" +
     "      </div>\n" +
     "    </div>\n" +
@@ -691,16 +690,16 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "\n" +
     "  <!--ACCESSIBILITY-->\n" +
     "  <section id=\"accessibility\" class=\"title-area\">\n" +
-    "    <div class=\"container column text\"><h1>Accessibility</h1></div>\n" +
+    "    <div class=\"container column text\">\n" +
+    "      <h1>Accessibility</h1>\n" +
+    "    </div>\n" +
     "  </section>\n" +
     "  <!--intro-->\n" +
     "  <section class=\"intro\">\n" +
     "    <p>\n" +
     "      In my second web role, way back in 2003, (yes that long ago!), I ran our\n" +
     "      site through the\n" +
-    "      <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\"\n" +
-    "        >Bobby validator</a\n" +
-    "      >\n" +
+    "      <a href=\"http://www.coggan.com/bobby-approved.html\" target=\"_blank\">Bobby validator</a>\n" +
     "      and <a href=\"https://validator.w3.org/\" target=\"_blank\">W3C Validator</a>,\n" +
     "      quickly learning that our site didn't comply with basic coding standards,\n" +
     "      <strong>let alone was it accessible</strong>. I convinced my boss to send\n" +
@@ -718,11 +717,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://nab.com.au\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndNAB.jpg\"\n" +
-    "            alt=\"NAB Internet Banking\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://nab.com.au\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndNAB.jpg\"\n" +
+    "            alt=\"NAB Internet Banking\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
@@ -750,21 +746,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a\n" +
-    "          href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
-    "          target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/accessibility/rnid.jpg\"\n" +
-    "            alt=\"Action on Hearing Loss website\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/accessibility/rnid.jpg\" alt=\"Action on Hearing Loss website\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a\n" +
-    "            href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >Action on hearing loss</a\n" +
-    "          >\n" +
+    "          <a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Action on hearing loss</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          I worked for 8 months on the previous website for the\n" +
@@ -781,11 +768,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          received critical acclaim for the site.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          <a\n" +
-    "            href=\"https://www.actiononhearingloss.org.uk/default.aspx\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >Click here to view the Action Hearing Loss website</a\n" +
-    "          >\n" +
+    "          <a href=\"https://www.actiononhearingloss.org.uk/default.aspx\" target=\"_blank\">Click here to view the Action\n" +
+    "            Hearing Loss website</a>\n" +
     "        </p>\n" +
     "      </div>\n" +
     "    </div>\n" +
@@ -794,17 +778,12 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://www.medibank.com.au/about\" target=\"_blank\"\n" +
-    "          ><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\"\n" +
-    "            alt=\"Medibank\"\n" +
-    "        /></a>\n" +
+    "        <a href=\"http://www.medibank.com.au/about\" target=\"_blank\"><img\n" +
+    "            src=\"assets/images/frontEnd/frontEndMedibankAboutUs.jpg\" alt=\"Medibank\" /></a>\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://www.medibank.com.au/about\" target=\"_blank\"\n" +
-    "            >Medibank - About Us</a\n" +
-    "          >\n" +
+    "          <a href=\"http://www.medibank.com.au/about\" target=\"_blank\">Medibank - About Us</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          Here I was the lead Front End Developer for the first section released\n" +
@@ -835,9 +814,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        <dd>\n" +
     "          3 Hour workshop at General Assembly Melbourne.<br />Taught on March\n" +
     "          and July 2016<br />\n" +
-    "          <a target=\"_blank\" href=\"http://ga.co/1oDoDTZ\"\n" +
-    "            >View introduction to accessibility course</a\n" +
-    "          >\n" +
+    "          <a target=\"_blank\" href=\"http://ga.co/1oDoDTZ\">View introduction to accessibility course</a>\n" +
     "        </dd>\n" +
     "      </dl>\n" +
     "\n" +
@@ -845,40 +822,32 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "      <dl>\n" +
     "        <dt>\"9 Ways Facebook Can Improve Accessibility\"</dt>\n" +
     "        <dd>\n" +
-    "          <a\n" +
-    "            target=\"_blank\"\n" +
-    "            href=\"https://medium.com/@pcollins/9-ways-facebook-can-improve-accessibility-aa193ee7591a#.v5kq62ggo\"\n" +
-    "            >Read article: 9 ways Facebook can improve accessibility</a\n" +
-    "          >\n" +
+    "          <a target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/9-ways-facebook-can-improve-accessibility-aa193ee7591a#.v5kq62ggo\">Read\n" +
+    "            article: 9 ways Facebook can improve accessibility</a>\n" +
     "        </dd>\n" +
     "        <dt>\"5 Awesome Things Facebook is Doing for Accessibility\"</dt>\n" +
     "        <dd>\n" +
-    "          <a\n" +
-    "            target=\"_blank\"\n" +
-    "            href=\"https://medium.com/@pcollins/5-awesome-things-facebook-is-doing-for-accessibility-d329e390c6b4\"\n" +
-    "            >Read article: 5 Awesome Things Facebook is Doing for\n" +
-    "            Accessibility</a\n" +
-    "          >\n" +
+    "          <a target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/5-awesome-things-facebook-is-doing-for-accessibility-d329e390c6b4\">Read\n" +
+    "            article: 5 Awesome Things Facebook is Doing for\n" +
+    "            Accessibility</a>\n" +
     "        </dd>\n" +
     "        <dt>\n" +
     "          \"WAI-ARIA Compliant, Accessibile Form Validation: How To Do It Simple\n" +
     "          and Well\"\n" +
     "        </dt>\n" +
     "        <dd>\n" +
-    "          <a\n" +
-    "            target=\"_blank\"\n" +
-    "            href=\"https://medium.com/@pcollins/wai-aria-compliant-accessibile-form-validation-how-to-do-it-simple-and-well-d07e5917b048\"\n" +
-    "            >WAI-ARIA Compliant, Accessibile Form Validation: How To Do It\n" +
-    "            Simple and Well</a\n" +
-    "          >\n" +
+    "          <a target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/wai-aria-compliant-accessibile-form-validation-how-to-do-it-simple-and-well-d07e5917b048\">WAI-ARIA\n" +
+    "            Compliant, Accessibile Form Validation: How To Do It\n" +
+    "            Simple and Well</a>\n" +
     "        </dd>\n" +
     "        <dt>\"5 Ways Virtual Reality will be great for accessibility\"</dt>\n" +
     "        <dd>\n" +
-    "          <a\n" +
-    "            target=\"_blank\"\n" +
-    "            href=\"https://medium.com/@pcollins/5-ways-virtual-reality-will-be-great-for-accessibility-74c49a9adf57\"\n" +
-    "            >5 Ways Virtual Reality will be great for accessibility.</a\n" +
-    "          >\n" +
+    "          <a target=\"_blank\"\n" +
+    "            href=\"https://medium.com/@pcollins/5-ways-virtual-reality-will-be-great-for-accessibility-74c49a9adf57\">5\n" +
+    "            Ways Virtual Reality will be great for accessibility.</a>\n" +
     "        </dd>\n" +
     "      </dl>\n" +
     "    </div>\n" +
@@ -889,23 +858,15 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        <dt>\"Accessibility Testing Tools\"</dt>\n" +
     "        <dd>\n" +
     "          A11y Bytes, May 2016<br />\n" +
-    "          <a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\"\n" +
-    "            >View A11y Bytes website</a\n" +
-    "          ><br />\n" +
-    "          <a\n" +
-    "            href=\"http://pauldcollins.github.io/assets/presentations/a11yBytes/\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >View accessibility testing tools presentation</a\n" +
-    "          >\n" +
+    "          <a href=\"http://a11ybytes.org/melbourne/\" target=\"_blank\">View A11y Bytes website</a><br />\n" +
+    "          <a href=\"http://pauldcollins.github.io/assets/presentations/a11yBytes/\" target=\"_blank\">View accessibility\n" +
+    "            testing tools presentation</a>\n" +
     "        </dd>\n" +
     "        <dt>\"Using ARIA in depth\"</dt>\n" +
     "        <dd>\n" +
     "          Odecee Brownbag, March 2016<br />\n" +
-    "          <a\n" +
-    "            href=\"assets/images/teaching/Web-Accessibility-Paul-Collins.pdf\"\n" +
-    "            target=\"_blank\"\n" +
-    "            >View using ARIA in depth presentation (PDF)</a\n" +
-    "          >\n" +
+    "          <a href=\"assets/images/teaching/Web-Accessibility-Paul-Collins.pdf\" target=\"_blank\">View using ARIA in depth\n" +
+    "            presentation (PDF)</a>\n" +
     "        </dd>\n" +
     "      </dl>\n" +
     "    </div>\n" +
