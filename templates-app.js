@@ -537,12 +537,11 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://app.outreached.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndOutreached.jpg\"\n" +
-    "            alt=\"Quote Wall\" /></a>\n" +
+    "        <img src=\"assets/images/frontEnd/frontEndOutreached.jpg\" alt=\"Quote Wall\" />\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://app.outreached.com.au/\" target=\"_blank\">Outreached</a>\n" +
+    "          <a target=\"_blank\">Outreached</a>\n" +
     "        </h2>\n" +
     "        <p>\n" +
     "          For a new startup, I built a working prototype for a social media\n" +
@@ -567,15 +566,14 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://stopphubbing.com/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\"\n" +
-    "            alt=\"Stop Phubbing\" /></a>\n" +
+    "        <img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\" />\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://stopphubbing.com/\" target=\"_blank\">Stop Phubbing</a>\n" +
+    "          Stop Phubbing\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          Stop Phubbing was a fun project I took over and completed as the sole\n" +
+    "          Stop Phubbing was a fun CSS animation project I took over and completed as the sole\n" +
     "          Front End Dev. The idea was to bring awareness to \"the act of snubbing\n" +
     "          someone in a social setting by looking at your phone instead of paying\n" +
     "          attention\".\n" +
