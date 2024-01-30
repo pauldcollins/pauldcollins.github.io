@@ -465,17 +465,16 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://altvr.com\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\"\n" +
-    "            alt=\"Altspace VR\" /></a>\n" +
+    "        <img src=\"assets/images/frontEnd/frontEndAltspaceVR.jpg\" alt=\"Altspace VR\" />\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
     "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://nab.com.au\" target=\"_blank\">Altspace VR</a>\n" +
+    "          Altspace VR\n" +
     "        </h2>\n" +
     "        <p>\n" +
-    "          This is a prototype I designed and built for the admin section of a\n" +
-    "          Virtual Reality App. It's built using\n" +
-    "          <strong>ReactJS, HTML</strong> &amp; <strong>CSS</strong>\n" +
+    "          Altspace VR were a VR Social Media company, that was bought out by Microsoft.\n" +
+    "          I built a prototype I designed and built for the admin section of a\n" +
+    "          Virtual Reality App. It's built using <strong>ReactJS, HTML</strong> &amp; <strong>CSS</strong>\n" +
     "        </p>\n" +
     "        <p>\n" +
     "          The old design needed rehashing, so I worked on testing the\n" +
@@ -485,7 +484,6 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "      </div>\n" +
     "    </div>\n" +
     "  </section>\n" +
-    "\n" +
     "  <!--project-->\n" +
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
@@ -537,35 +535,6 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
-    "        <img src=\"assets/images/frontEnd/frontEndOutreached.jpg\" alt=\"Quote Wall\" />\n" +
-    "      </p>\n" +
-    "      <div class=\"col-md-9 text-area\">\n" +
-    "        <h2 class=\"mainTitle\">\n" +
-    "          <a target=\"_blank\">Outreached</a>\n" +
-    "        </h2>\n" +
-    "        <p>\n" +
-    "          For a new startup, I built a working prototype for a social media\n" +
-    "          campaign manager. We used the\n" +
-    "          <a href=\"https://wrapbootstrap.com/theme/homer-responsive-admin-theme-WB055J451\">Homer theme</a>\n" +
-    "          so we could set up quickly and build out components fast. I did the\n" +
-    "          <strong>UX Design</strong> and customised the theme using\n" +
-    "          <strong>Angular, CSS, HTML, Bootstrap</strong>. It was Optimised for\n" +
-    "          iPad and web.\n" +
-    "        </p>\n" +
-    "        <p>\n" +
-    "          We were working to a tight deadline and it was getting tested by a\n" +
-    "          client as we built, so I could\n" +
-    "          <strong>get instant feedback and push changes straight away</strong>.\n" +
-    "          On this project I learned the importance of not always being fussy\n" +
-    "          about code in the interest of iterating quickly!\n" +
-    "        </p>\n" +
-    "      </div>\n" +
-    "    </div>\n" +
-    "  </section>\n" +
-    "  <!--project-->\n" +
-    "  <section class=\"image left-image\">\n" +
-    "    <div class=\"container\">\n" +
-    "      <p class=\"col-md-3 image\">\n" +
     "        <img src=\"assets/images/frontEnd/frontEndStopPhubbing.jpg\" alt=\"Stop Phubbing\" />\n" +
     "      </p>\n" +
     "      <div class=\"col-md-9 text-area\">\n" +
@@ -585,38 +554,6 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "      </div>\n" +
     "    </div>\n" +
     "  </section>\n" +
-    "  <!--project-->\n" +
-    "  <section class=\"image left-image\">\n" +
-    "    <div class=\"container\">\n" +
-    "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\"><img\n" +
-    "            src=\"assets/images/frontEnd/frontEndMyki.jpg\" alt=\"Master Your Myki\" /></a>\n" +
-    "      </p>\n" +
-    "      <div class=\"col-md-9 text-area\">\n" +
-    "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"http://www.commotioncreative.com.au/master-your-myki/\" target=\"_blank\">Master Your Myki</a>\n" +
-    "        </h2>\n" +
-    "        <p>\n" +
-    "          <strong>Mobile first</strong> website designed to help people on the\n" +
-    "          go master Melbourne's complex transport system! I was the sole\n" +
-    "          developer, building the responsive site using\n" +
-    "          <strong>HMTL, JAVA, CSS</strong> and <strong>Google Maps</strong>.\n" +
-    "        </p>\n" +
-    "        <p>\n" +
-    "          The site needed to be performant on mobile, so I setup\n" +
-    "          <strong>CSS Sprites</strong> and build tools to optimise all files.\n" +
-    "          (This was before service workers were an option).\n" +
-    "        </p>\n" +
-    "        <p>\n" +
-    "          There was a tight deadline of <strong>2 weeks</strong>, but along with\n" +
-    "          the <strong>designer</strong> and <strong>project manager</strong>, we\n" +
-    "          had the site built, tested and live in time for the advertising\n" +
-    "          campaign.\n" +
-    "        </p>\n" +
-    "      </div>\n" +
-    "    </div>\n" +
-    "  </section>\n" +
-    "\n" +
     "  <!--project-->\n" +
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
