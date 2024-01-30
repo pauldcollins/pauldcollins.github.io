@@ -323,7 +323,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          software.</p>\n" +
     "\n" +
     "        <p>Cyberfluent is a startup where we are worked on a complex app that requires the following: <strong>Strapi\n" +
-    "            CMS, NextJS, Tailwind CSS, React, GraphQL</strong>. I'm lead the Front End setup and enjoyed working with a\n" +
+    "            CMS, NextJS, Tailwind CSS, React, GraphQL</strong>. I lead the Front End architecture and build and enjoyed\n" +
+    "          working with a\n" +
     "          great team to get the project up and running and built things fast, while maintaining quality. </p>\n" +
     "\n" +
     "        <p> On this project I also worked with: <strong>Amazon S3,</strong> <strong>Amazon EC2,</strong></p>\n" +
