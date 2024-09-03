@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="ngBoilerplate" ng-controller="AppCtrl">
+
 <head>
   <title ng-bind="pageTitle"></title>
 
@@ -9,11 +10,13 @@
   <meta name="twitter:title" content="Paul Collins portfolio">
   <meta name="twitter:description" content="Portfolio of Paul Collins">
   <meta name="twitter:creator" content="@paulcollins">
-  <meta name="twitter:image:src" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846">
+  <meta name="twitter:image:src"
+    content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846">
   <meta property="og:title" content="Paul Collins" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://pauldcollins.github.io" />
-  <meta property="og:image" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846" />
+  <meta property="og:image"
+    content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846" />
   <meta property="og:description" content="This is the portfolio of Paul Collins, based in Melbourne, Australia">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,108 +25,131 @@
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 
   <!-- compiled CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/ngbp-0.3.2.css" />
+  
+    <link rel="stylesheet" type="text/css" href="assets/ngbp-0.3.2.css" />
+    
 
-  <!-- compiled JavaScript -->
-  <script type="text/javascript" src="vendor/angular/angular.js"></script>
-  <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-  <script type="text/javascript" src="vendor/angular-bootstrap-affix/dist/angular-bootstrap-affix.min.js"></script>
-  <script type="text/javascript" src="vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
-  <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
-  <script type="text/javascript" src="vendor/ngSmoothScroll/angular-smooth-scroll.js"></script>
-  <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="vendor/bootstrap/js/affix.js"></script>
-  <script type="text/javascript" src="src/app/about/about.js"></script>
-  <script type="text/javascript" src="src/app/app.js"></script>
-  <script type="text/javascript" src="src/app/home/home.js"></script>
-  <script type="text/javascript" src="src/common/plusOne/plusOne.js"></script>
-  <script type="text/javascript" src="templates-common.js"></script>
-  <script type="text/javascript" src="templates-app.js"></script>
+      <!-- compiled JavaScript -->
+      
+        <script type="text/javascript" src="vendor/angular/angular.js"></script>
+        
+        <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        
+        <script type="text/javascript" src="vendor/angular-bootstrap-affix/dist/angular-bootstrap-affix.min.js"></script>
+        
+        <script type="text/javascript" src="vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
+        
+        <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+        
+        <script type="text/javascript" src="vendor/ngSmoothScroll/angular-smooth-scroll.js"></script>
+        
+        <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
+        
+        <script type="text/javascript" src="vendor/bootstrap/js/affix.js"></script>
+        
+        <script type="text/javascript" src="src/app/about/about.js"></script>
+        
+        <script type="text/javascript" src="src/app/app.js"></script>
+        
+        <script type="text/javascript" src="src/app/home/home.js"></script>
+        
+        <script type="text/javascript" src="src/common/plusOne/plusOne.js"></script>
+        
+        <script type="text/javascript" src="templates-common.js"></script>
+        
+        <script type="text/javascript" src="templates-app.js"></script>
+        
 
-  <!-- it's stupid to have to load it here, but this is for the +1 button -->
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-    { "parsetags": "explicit" }
-  </script>
+          <!-- it's stupid to have to load it here, but this is for the +1 button -->
+          <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+            { "parsetags": "explicit" }
+          </script>
 </head>
+
 <body id="home">
-    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" ng-init="menuCollapsed = true" ng-click="menuCollapsed = ! menuCollapsed">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-brand">
-                    <h4><a href="#" scroll-to="home"><i class="fa fa-home"></i> Paul Collins</h4></a>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse" collapse="menuCollapsed">
-                <ul class="nav navbar-nav nav-scroll">
-                    <li>
-                      <a href="#" scroll-to="front-end-development" offset="52">
-                        <i class="fa fa-code"></i>
-                        Front End Development
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" scroll-to="ux-design" offset="52">
-                        <i class="fa fa-cog"></i>
-                        UX and VR Design
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" scroll-to="accessibility" offset="52">
-                        <i class="fa fa-user"></i>
-                        Accessibility
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" scroll-to="teachings" offset="52">
-                        <i class="fa fa-graduation-cap"></i>
-                        Teaching, Talks, Publications
-                      </a>
-                    </li>
-<!--                     <li>
+  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" ng-init="menuCollapsed = true"
+          ng-click="menuCollapsed = ! menuCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand">
+          <h4><a href="#" scroll-to="home"><i class="fa fa-home"></i> Paul Collins</h4></a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" collapse="menuCollapsed">
+        <ul class="nav navbar-nav nav-scroll">
+          <li>
+            <a href="#" scroll-to="development" offset="52">
+              <i class="fa fa-code"></i>
+              Front End Development
+            </a>
+          </li>
+          <li>
+            <a href="#" scroll-to="ux-design" offset="52">
+              <i class="fa fa-cog"></i>
+              UX and VR Design
+            </a>
+          </li>
+          <li>
+            <a href="#" scroll-to="accessibility" offset="52">
+              <i class="fa fa-user"></i>
+              Accessibility
+            </a>
+          </li>
+          <li>
+            <a href="#" scroll-to="teachings" offset="52">
+              <i class="fa fa-graduation-cap"></i>
+              Teaching, Talks, Publications
+            </a>
+          </li>
+          <!--                     <li>
                       <a href="#" scroll-to="hobbies" offset="52">
                         <i class="fa fa-paint-brush"></i>
                         Hobbies
                       </a>
                     </li>   -->
-                    <li>
-                      <a href="#" scroll-to="contact">
-                        <i class="fa fa-at"></i>
-                        Contact
-                      </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="jumbotron nav-scroll">
-        <h2 class="h2">Noisie PTY LTD</h2>
-        <h1 class="h1"><a href="#" scroll-to="contact">Paul Collins</a></h1>
-        <div class="description">
-          <p>I am a Digital Consultant with 25 years experience across a wide range of technologies. I specialise in UX Design, Front End Development, Web Accessibility and App Development.</p>
-          <p>I also have experience working with a range of emerging tech - including Blockchain, NFTs and Virtual Reality. I love helping teams innovate, build and deliver their products.</p>
-          <p>Please check out my previous projects and clients below and <a href="#" scroll-to="contact">get in touch</a> if you'd like to chat further.</p>
-        </div>
-        <ul class="links">
-            <li><a href="#" scroll-to="front-end-development" offset="52">Front End Development,</a></li>
-            <li><a href="#" scroll-to="ux-design" offset="52">UX and VR Design,</a></li>
-            <li><a href="#" scroll-to="accessibility" offset="52">Accessibility,</a></li>
-            <li><a href="#" scroll-to="teachings" offset="52">Teaching, Talks and Publications,</a></li>
-<!--             <li><a href="#" scroll-to="hobbies" offset="52">Hobbies</a></li> -->
+          <li>
+            <a href="#" scroll-to="contact">
+              <i class="fa fa-at"></i>
+              Contact
+            </a>
+          </li>
         </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="container main-container" ui-view="main"></div>
+  <div class="jumbotron nav-scroll">
+    <h2 class="h2">Noisie PTY LTD</h2>
+    <h1 class="h1"><a href="#" scroll-to="contact">Paul Collins</a></h1>
+    <div class="description">
+      <p>I am a Digital Consultant with 25 years experience across a wide range of technologies. I specialise in Full
+        Stack Development, App Development, UX Design & Digital Accessibility</p>
+      <p>I also have experience working with a range of emerging tech - including Blockchain, NFTs and Virtual Reality.
+        I love helping teams innovate, build and deliver their products.</p>
+      <p>Please check out my previous projects and clients below and <a href="#" scroll-to="contact">get in touch</a> if
+        you'd like to chat further.</p>
+    </div>
+    <ul class="links">
+      <li><a href="#" scroll-to="development" offset="52">Full Stack & App Development,</a></li>
+      <li><a href="#" scroll-to="ux-design" offset="52">UX and VR Design,</a></li>
+      <li><a href="#" scroll-to="accessibility" offset="52">Digital Accessibility,</a></li>
+      <li><a href="#" scroll-to="teachings" offset="52">Teaching, Talks and Publications,</a></li>
+      <!--             <li><a href="#" scroll-to="hobbies" offset="52">Hobbies</a></li> -->
+    </ul>
+  </div>
 
-<!--FOOTER-->
-    <svg id="clouds" class="pull-left" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <path d="M-5 100 Q 0 20 5 100 Z
+  <div class="container main-container" ui-view="main"></div>
+
+  <!--FOOTER-->
+  <svg id="clouds" class="pull-left" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+    viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
            M0 100 Q 5 0 10 100
            M5 100 Q 10 30 15 100
            M10 100 Q 15 10 20 100
@@ -144,17 +170,20 @@
            M85 100 Q 90 50 95 100
            M90 100 Q 95 25 100 100
            M95 100 Q 100 15 105 100 Z"></path>
-    </svg>
+  </svg>
 
-    <footer class="clouds pull-left" id="contact">
-        <div class="container">
-            <h1>Contact:</h1>
-            <ul class="social">
-                <li><a target="_blank" href="http://twitter.com/paulcollins"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/paulcollins4/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
-                <li><a target="_blank" href="https://github.com/pauldcollins"><i class="fa fa-github"></i> Github</a></li>
-            </ul>
-        </div>
-    </footer>
+  <footer class="clouds pull-left" id="contact">
+    <div class="container">
+      <h1>Contact:</h1>
+      <ul class="social">
+        <li><a target="_blank" href="http://twitter.com/paulcollins"><i class="fa fa-twitter-square"></i> Twitter</a>
+        </li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/paulcollins4/"><i class="fa fa-linkedin-square"></i>
+            LinkedIn</a></li>
+        <li><a target="_blank" href="https://github.com/pauldcollins"><i class="fa fa-github"></i> Github</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>

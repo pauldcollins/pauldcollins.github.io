@@ -274,12 +274,36 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
   $templateCache.put("home/home.tpl.html",
     "<div class=\"section-container\">\n" +
     "  <!--FRONT END DEVELOPMENT-->\n" +
-    "  <section id=\"front-end-development\" class=\"title-area\">\n" +
+    "  <section id=\"development\" class=\"title-area\">\n" +
     "    <div class=\"container column text\">\n" +
-    "      <h1>Front End Development</h1>\n" +
+    "      <h1>Full Stack & App Development</h1>\n" +
     "    </div>\n" +
     "  </section>\n" +
     "\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://atomic212.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAtomic212.png\"\n" +
+    "            alt=\"Atomic 212\" /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://atomic212.com.au/\" target=\"_blank\">Atomic 212</a>\n" +
+    "        </h2>\n" +
+    "        <p>For Atomic 212, I worked as a Full Stack Engineer, building custom (password protected) software.</p>\n" +
+    "        <p>\n" +
+    "          I built the app from scratch, using <strong>React</strong>, <strong>Tailwind CSS</strong>,\n" +
+    "          <strong>Python</strong>,\n" +
+    "          <strong>Google Cloud</strong> & using <strong>Google Cloud Functions</strong> for data calculations.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          My job involved UX Design, Front and Back End Engineering. API creation, Database and Cloud Development.\n" +
+    "          Challenges overcome included taking an existing app (built using Streamlit) and rebuilding it from scratch,\n" +
+    "          while maintaining the existing functionality.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
     "\n" +
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
@@ -297,9 +321,37 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        </p>\n" +
     "        <p>\n" +
     "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> backend, using\n" +
-    "          <strong>Apollo</strong>. My role was to take the\n" +
-    "          existing website and\n" +
-    "          create a mobile app, enabling users to see all their latest AI Social Media Posts, while on the go.\n" +
+    "          <strong>Apollo</strong> and an <strong>AWS</strong> backend. My role was to take the\n" +
+    "          existing website and create a mobile app, enabling users to see all their latest AI Social Media Posts, while\n" +
+    "          on the go.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          Other parts of my role involved designing new pages and user flows that hadn't been created on the desktop\n" +
+    "          app.\n" +
+    "        </p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://brandninja.ai/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndBrandNinja.png\"\n" +
+    "            alt=\"Brand Ninja AI\" /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://brandninja.ai/\" target=\"_blank\">Brand Ninja (AI)</a>\n" +
+    "        </h2>\n" +
+    "        <p>\n" +
+    "          For Brand Ninja, I worked as a <strong>Lead Mobile Engineer</strong>, building a fully functioning social\n" +
+    "          media app for iOS and Android in 8 weeks.\n" +
+    "        </p>\n" +
+    "        <p>\n" +
+    "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> backend, using\n" +
+    "          <strong>Apollo</strong> and an <strong>AWS</strong> backend. My role was to take the\n" +
+    "          existing website and create a mobile app, enabling users to see all their latest AI Social Media Posts, while\n" +
+    "          on the go.\n" +
     "        </p>\n" +
     "        <p>\n" +
     "          Other parts of my role involved designing new pages and user flows that hadn't been created on the desktop\n" +
