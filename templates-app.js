@@ -299,35 +299,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        <p>\n" +
     "          My job involved UX Design, Front and Back End Engineering. API creation, Database and Cloud Development.\n" +
     "          Challenges overcome included taking an existing app (built using Streamlit) and rebuilding it from scratch,\n" +
-    "          while maintaining the existing functionality.\n" +
-    "        </p>\n" +
-    "      </div>\n" +
-    "    </div>\n" +
-    "  </section>\n" +
-    "\n" +
-    "  <section class=\"image left-image\">\n" +
-    "    <div class=\"container\">\n" +
-    "      <p class=\"col-md-3 image\">\n" +
-    "        <a href=\"https://brandninja.ai/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndBrandNinja.png\"\n" +
-    "            alt=\"Brand Ninja AI\" /></a>\n" +
-    "      </p>\n" +
-    "      <div class=\"col-md-9 text-area\">\n" +
-    "        <h2 class=\"mainTitle\">\n" +
-    "          <a href=\"https://brandninja.ai/\" target=\"_blank\">Brand Ninja (AI)</a>\n" +
-    "        </h2>\n" +
-    "        <p>\n" +
-    "          For Brand Ninja, I worked as a <strong>Lead Mobile Engineer</strong>, building a fully functioning social\n" +
-    "          media app for iOS and Android in 8 weeks.\n" +
-    "        </p>\n" +
-    "        <p>\n" +
-    "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> backend, using\n" +
-    "          <strong>Apollo</strong> and an <strong>AWS</strong> backend. My role was to take the\n" +
-    "          existing website and create a mobile app, enabling users to see all their latest AI Social Media Posts, while\n" +
-    "          on the go.\n" +
-    "        </p>\n" +
-    "        <p>\n" +
-    "          Other parts of my role involved designing new pages and user flows that hadn't been created on the desktop\n" +
-    "          app.\n" +
+    "          while maintaining the existing functionality. Security was also a big concern, so I worked closely with the\n" +
+    "          team to ensure the app was secure.\n" +
     "        </p>\n" +
     "      </div>\n" +
     "    </div>\n" +
