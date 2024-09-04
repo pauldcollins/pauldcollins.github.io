@@ -293,7 +293,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "        <p>For Atomic 212, I worked as a Full Stack Engineer, building custom (password protected) software.</p>\n" +
     "        <p>\n" +
     "          I built the app from scratch, using <strong>React</strong>, <strong>Tailwind CSS</strong>,\n" +
-    "          <strong>Python</strong>,\n" +
+    "          <strong>Python</strong>, <strong>NodeJS/Express</strong> and <strong>Postgres</strong>.\n" +
     "          <strong>Google Cloud</strong> & using <strong>Google Cloud Functions</strong> for data calculations.\n" +
     "        </p>\n" +
     "        <p>\n" +
@@ -321,7 +321,8 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "          media app for iOS and Android in 8 weeks.\n" +
     "        </p>\n" +
     "        <p>\n" +
-    "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> backend, using\n" +
+    "          The app was built with <strong>React Native</strong>, talking to a <strong>GrahpQL</strong> and\n" +
+    "          <strong>NodeJS/Express</strong> backend, using\n" +
     "          <strong>Apollo</strong> and an <strong>AWS</strong> backend. My role was to take the\n" +
     "          existing website and create a mobile app, enabling users to see all their latest AI Social Media Posts, while\n" +
     "          on the go.\n" +
