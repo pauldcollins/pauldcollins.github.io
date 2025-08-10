@@ -283,6 +283,38 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "  <section class=\"image left-image\">\n" +
     "    <div class=\"container\">\n" +
     "      <p class=\"col-md-3 image\">\n" +
+    "        <a href=\"https://www.vitelle.co/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndVitelle.png\"\n" +
+    "            alt=\"Vitelle\" /></a>\n" +
+    "      </p>\n" +
+    "      <div class=\"col-md-9 text-area\">\n" +
+    "        <h2 class=\"mainTitle\">\n" +
+    "          <a href=\"https://www.vitelle.co/\" target=\"_blank\">Vitelle</a>\n" +
+    "        </h2>\n" +
+    "\n" +
+    "        <p>For <strong>Vitelle</strong>, I worked as CTO for 18 months, including 3 months in the <strong>Boston\n" +
+    "            Techstars 2024</strong> cohort, leading the build of a women’s health intelligence platform.</p>\n" +
+    "\n" +
+    "        <p>I took the product from MVP to production, delivering mobile, web, and cloud infrastructure using\n" +
+    "          <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Google Cloud</strong>. My role covered\n" +
+    "          product strategy, UX, backend, integrations, and security.\n" +
+    "        </p>\n" +
+    "\n" +
+    "        <p>Key achievements included integrating <strong>Apple Health</strong> and <strong>Google Fit</strong>, solving\n" +
+    "          complex sleep and activity tracking challenges, and adding AI-driven movement tracking, blood work analysis,\n" +
+    "          and machine learning health predictions via <strong>Dataiku</strong>. I also implemented email integration\n" +
+    "          (<strong>SendGrid</strong>) and online payments (<strong>Stripe</strong>).</p>\n" +
+    "\n" +
+    "        <p>On the compliance side, I improved accessibility across platforms and contributed to <strong>SOC2</strong>\n" +
+    "          readiness and <strong>HECVAT</strong> compliance. I introduced modern dev workflows (trunk-based Git, PR\n" +
+    "          reviews, <strong>JIRA</strong>, daily standups) and mentored junior engineers, aligning KPIs with engineering\n" +
+    "          output to support user outcomes, growth, and grant goals.</p>\n" +
+    "      </div>\n" +
+    "    </div>\n" +
+    "  </section>\n" +
+    "\n" +
+    "  <section class=\"image left-image\">\n" +
+    "    <div class=\"container\">\n" +
+    "      <p class=\"col-md-3 image\">\n" +
     "        <a href=\"https://atomic212.com.au/\" target=\"_blank\"><img src=\"assets/images/frontEnd/frontEndAtomic212.png\"\n" +
     "            alt=\"Atomic 212\" /></a>\n" +
     "      </p>\n" +
